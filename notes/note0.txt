@@ -1,0 +1,6 @@
+inv system
+	enemy drop item on kill
+	object drop item on break
+
+room transition
+	-sd

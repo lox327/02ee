@@ -1,0 +1,1 @@
+cameraDrag = .04; //smaller num = more drag .04 default
