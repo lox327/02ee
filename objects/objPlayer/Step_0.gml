@@ -29,23 +29,25 @@ if (state == "idle") {
 	//move animation
 	if (abs(xvel) < abs(yvel)) {
 		if (yvel < 0) { //moving up
-			sprite_index = playerUp;
+			sprite_index = playerRight;	//playerUp
 			dir = "up";
 		}
 		else {
-			sprite_index = playerDown;
+			sprite_index = playerRight;	//playerDown
 			dir = "down";
 		}
 	}
 
 	if (abs(xvel) > abs(yvel)) {
 		if (xvel < 0) { //moving right
-			sprite_index = playerLeft;
+			sprite_index = playerLeft;	//playerLeft
+			image_xscale = -1;	
 			dir = "left";
 		}
 		else {
-			sprite_index = playerRight;
+			sprite_index = playerRight;	//playerRight
 			dir = "right";
+			image_xscale = 1;	
 		}
 	}
 

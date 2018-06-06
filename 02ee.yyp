@@ -194,7 +194,7 @@
             "Key": "48c5c23b-e44b-429f-a1af-a7802bda8ce5",
             "Value": {
                 "id": "80a6e330-df53-4da1-b625-26ecaeae6711",
-                "resourcePath": "sprites\\playerLeft\\playerLeft.yy",
+                "resourcePath": "sprites\\playerLeft2\\playerLeft2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -556,6 +556,14 @@
                 "id": "046db246-d043-4ae8-bd3c-674405c207d5",
                 "resourcePath": "fonts\\fnt_GUI\\fnt_GUI.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "f134f460-d259-44ef-83ac-cb64faccf0a5",
+            "Value": {
+                "id": "3e396594-4d79-48de-98cc-b57a2f76786e",
+                "resourcePath": "sprites\\playerLeft\\playerLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
