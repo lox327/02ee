@@ -10,11 +10,11 @@ state = "idle";
 numKey = 1;
 defaultEnergy = 100;
 weaponEnergy = 50;
-health = 100;
+health = 90;
 currency = 0;
 
 
-//MAXIMUMS
+//MAX
 defaultMax = 100;
 weaponEnergyMax = 100;
 specialEnergyMax = 100;

@@ -191,10 +191,26 @@
             }
         },
         {
+            "Key": "444dbebe-0855-4992-9b04-4cf5c83d81d9",
+            "Value": {
+                "id": "778c3288-8358-4203-90a4-1564d28dadf9",
+                "resourcePath": "sprites\\hp1\\hp1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "48c5c23b-e44b-429f-a1af-a7802bda8ce5",
             "Value": {
                 "id": "80a6e330-df53-4da1-b625-26ecaeae6711",
                 "resourcePath": "sprites\\playerLeft2\\playerLeft2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b28011b-114f-421b-8490-22f5dfd63497",
+            "Value": {
+                "id": "4dd3685b-2fbd-4ce4-94be-ab7f61f37d2c",
+                "resourcePath": "sprites\\energy\\energy.yy",
                 "resourceType": "GMSprite"
             }
         },

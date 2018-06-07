@@ -101,15 +101,19 @@ if (actAttack && state="idle") {
 
 //attackShoot
 if (actShoot) {
-	if (instance_number(objBullet) < 30 && ( weaponEnergy > 0 || numKey == 1 )) shoot(); //weapon 1 doesn't use energy
+	//if (instance_number(objBullet) < 30 && ( weaponEnergy > 0 || (numKey == 1 && defaultEnergy > 0) )) shoot(); //weapon 1 doesn't use energy
+	if (numKey == 1) {						//default gun, doesn't use energy
+		if ( defaultEnergy > 0 ) shoot();
+	}
+	
+	else if ( weaponEnergy > 0 ) shoot();	//all other guns use energy
 
 }
 
-
+//switch
 if (keyboard_check(ord("1"))) numKey = 1;
 else if (keyboard_check(ord("2"))) numKey = 2;
 
-test = numKey;
 
 //handle inventory
 /*if (actInv) {
@@ -141,4 +145,5 @@ if (state != "idle") {
 
 }
 
+//inc default energy every step to regen, should use var
 if (defaultEnergy < defaultMax) defaultEnergy += .50; //defaultEnergy++;
