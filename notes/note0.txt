@@ -4,3 +4,7 @@ inv system
 
 room transition
 	-sd
+	
+fix controller
+
+char screen, pause game in background

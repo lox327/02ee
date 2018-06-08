@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "269460a8-66b0-48da-a68e-abe02b237abf",
+            "Value": {
+                "id": "648b5df9-815d-4df8-be11-2fa0ce5e56ca",
+                "resourcePath": "scripts\\special\\special.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2920ee7c-4bba-4878-a01b-065e2a844a02",
             "Value": {
                 "id": "4ec93c60-0415-4283-9761-752826dc8809",
@@ -244,6 +252,14 @@
                 "id": "5e46800d-64c1-4085-ae88-13579e06441a",
                 "resourcePath": "sprites\\sword\\sword.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b00542d-023d-4bc6-98e0-5e0b9801e452",
+            "Value": {
+                "id": "f4c1462f-3cc0-4e93-a6b1-3e9d9d9583ce",
+                "resourcePath": "objects\\objEnemyGamestate\\objEnemyGamestate.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "50c34087-8a3b-430c-951b-bd00cc317ef5",
                 "resourcePath": "sprites\\tiles\\tiles.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f5c4233-c1f9-4933-86a9-07cd79ff52fb",
+            "Value": {
+                "id": "1d980120-deb3-4fe1-ba31-e5660655dee3",
+                "resourcePath": "scripts\\bash\\bash.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -618,7 +642,9 @@
     "script_order": [
         "d0fa18d6-0c0d-4a6b-af28-153cb5633374",
         "a44729b9-6766-40ae-82bd-a0a0869d54f5",
-        "95f03206-eee4-46f0-9223-f6a0e863a497"
+        "269460a8-66b0-48da-a68e-abe02b237abf",
+        "95f03206-eee4-46f0-9223-f6a0e863a497",
+        "9f5c4233-c1f9-4933-86a9-07cd79ff52fb"
     ],
     "tutorial": ""
 }
