@@ -12,18 +12,25 @@ switch (gameState) {
     { 
         //moves
 		move_towards_point(objPlayer.x, objPlayer.y, spd);
+		if (self.x > objPlayer.x) sprite_index = enemy2Left;
+		else sprite_index = enemy2Right;
+		if (self.y > objPlayer.y) sprite_index = enemy2Up;
+		else sprite_index = enemy2Down;
+		
         if (timer <= 0)
+		//if (distance_to_object(objPayer) > 128)	gameState = GameState.IDLE;
         { 
             timer = 100;
-            gameState = GameState.PAUSE;
+            gameState = GameState.IDLE;
         }
         break; 
     } 
-    case GameState.PAUSE: 
+    case GameState.IDLE: 
     { 
         //do another action 
         move_towards_point(objPlayer.x, objPlayer.y, 0);
 		if (timer <= 0) //switch action
+		//if (distance_to_object(objPayer) < 96) gameState = GameState.MOVE;
         { 
             timer = 100;
             gameState = GameState.MOVE;

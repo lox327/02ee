@@ -4,9 +4,9 @@ spd = 1.0;
 enum GameState
 { 
      MOVE,
-	 PAUSE,
+	 IDLE,
      ATTACK,
      STANDSTILL, 
 };
-gameState = GameState.MOVE;
+gameState = GameState.IDLE;
 timer = 100; 

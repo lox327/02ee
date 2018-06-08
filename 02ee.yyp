@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05f9a2b5-a4cb-4eb0-8166-a567331fc26b",
+            "Value": {
+                "id": "af0b6671-214e-49bd-9c52-78e9e9bbe171",
+                "resourcePath": "views\\05f9a2b5-a4cb-4eb0-8166-a567331fc26b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0758c878-9ccd-40d3-ae31-1ff61dd02c1f",
             "Value": {
                 "id": "338649f0-e094-4558-9148-6342746cf8a2",
@@ -76,6 +84,14 @@
                 "id": "8659dfda-fd26-4a34-91a4-a713748ba034",
                 "resourcePath": "objects\\objSword\\objSword.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1974e787-8155-4a90-9b10-2f18d5280f2e",
+            "Value": {
+                "id": "e483830a-f7c2-42c4-90e2-dc3563e731d3",
+                "resourcePath": "sprites\\enemy2Right\\enemy2Right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "27320bbf-7f93-4644-aa7d-098d735ece2c",
+            "Value": {
+                "id": "69da2295-2d2a-4913-ba42-3da3134d0033",
+                "resourcePath": "sprites\\enemy2Up\\enemy2Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2920ee7c-4bba-4878-a01b-065e2a844a02",
             "Value": {
                 "id": "4ec93c60-0415-4283-9761-752826dc8809",
@@ -196,6 +220,14 @@
                 "id": "1bd80910-0b5c-4c38-bab8-4387dd9c7b7f",
                 "resourcePath": "tilesets\\tsTiles\\tsTiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "4193d649-3916-4901-949a-85315b8b537b",
+            "Value": {
+                "id": "e97ca8fc-8077-47ec-a959-33cac78cd9a6",
+                "resourcePath": "sprites\\enemy2Left\\enemy2Left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -531,6 +563,14 @@
             "Value": {
                 "id": "83d318b5-9e64-4b95-982b-6d843ddb691c",
                 "resourcePath": "sprites\\bullet\\bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0bb44ef-00d8-4b70-8ebf-3b63da5996e3",
+            "Value": {
+                "id": "8146d701-8d6e-453b-9b4f-de40672fa2b7",
+                "resourcePath": "sprites\\enemy2Down\\enemy2Down.yy",
                 "resourceType": "GMSprite"
             }
         },
