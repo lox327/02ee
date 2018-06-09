@@ -1,10 +1,6 @@
-if (instance_exists(objPlayer)) {
-	//move_towards_point(objPlayer.x, objPlayer.y, spd);
-}
-
 if (hp <= 0)  instance_destroy();
 //image_index = direction;
-
+//event_user(0);//Choose a State
 
 timer--;
 switch (gameState) {
@@ -29,6 +25,7 @@ switch (gameState) {
     { 
         //do another action 
         move_towards_point(objPlayer.x, objPlayer.y, 0);
+		sprite_index = enemy2Idle;
 		if (timer <= 0) //switch action
 		//if (distance_to_object(objPayer) < 96) gameState = GameState.MOVE;
         { 

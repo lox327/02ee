@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "560fb007-a5a9-4a3c-bccb-ff320ceb33d7",
+            "Value": {
+                "id": "0a1376a0-2f33-45df-b8c3-0db85d60d426",
+                "resourcePath": "sprites\\enemyIdle\\enemyIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59cc111c-4694-47cc-a610-0c4a250e0b1b",
             "Value": {
                 "id": "fc8ce246-cb43-4935-b81b-012e4973d790",
@@ -284,14 +292,6 @@
                 "id": "5e46800d-64c1-4085-ae88-13579e06441a",
                 "resourcePath": "sprites\\sword\\sword.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5b00542d-023d-4bc6-98e0-5e0b9801e452",
-            "Value": {
-                "id": "f4c1462f-3cc0-4e93-a6b1-3e9d9d9583ce",
-                "resourcePath": "objects\\objEnemyGamestate\\objEnemyGamestate.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -500,6 +500,14 @@
                 "id": "1551d5de-7a47-4326-8b05-a9b5acb020bf",
                 "resourcePath": "objects\\objItem\\objItem.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bcc25971-a68a-444d-b48c-df592d752a3a",
+            "Value": {
+                "id": "b5a68c5b-6f92-48be-866b-7f0539c6df1e",
+                "resourcePath": "sprites\\enemy2Idle\\enemy2Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
