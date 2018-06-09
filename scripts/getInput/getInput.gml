@@ -1,14 +1,25 @@
 //getInput(device)
 //custom class/function
-device = argument0;
-test = gamepad_get_device_count();
+//device = argument0;
+device = "";
 
-if (gamepad_is_connected(device)) {
+var maxpads = gamepad_get_device_count();
+for (var i = 0; i < maxpads; i++) {
+    if (gamepad_is_connected(i))
+        {
+        // do stuff with pad "i"
+		device = i;
+        }
+}
+
+if (gamepad_is_connected(0)) {
 	gamepad_set_axis_deadzone(device, 0.3);
 	xx = gamepad_axis_value(device, gp_axislh);
 	yy = gamepad_axis_value(device, gp_axislv);
 	
 	actAttack =	gamepad_button_check_pressed(device, gp_face1);
+	actShoot = gamepad_button_check_pressed(device, gp_face2);
+	
 }
 
 else {
