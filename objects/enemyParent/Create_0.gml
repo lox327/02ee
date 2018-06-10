@@ -10,8 +10,9 @@ enum GameState
 { 
      MOVE,
 	 IDLE,
-     ATTACK,
-     STANDSTILL, 
+     ATTACK1,
+	 ATTACK2,
+     CHASE, 
 };
 gameState = GameState.IDLE;
 timer = 100; 

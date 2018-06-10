@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "5d0fa202-de61-4cb9-8bee-4d725ce989e6",
+            "Value": {
+                "id": "27c78f62-8f20-418e-9eb8-079c7f58bd0d",
+                "resourcePath": "sprites\\enemy2Attack1\\enemy2Attack1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60d5109c-5422-4b65-a659-44031c2b0052",
             "Value": {
                 "id": "69dd9331-dce7-4b81-b9c8-a848a9c92e3a",
@@ -476,6 +484,14 @@
                 "id": "9f556552-1b77-47f9-adc1-fc98cfa8bc5e",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b02ea05c-e0c4-4331-b145-c6d1c61ad706",
+            "Value": {
+                "id": "9ce2f3e4-bdff-4ced-8e5a-c2404fa33485",
+                "resourcePath": "sprites\\enemy2Attack\\enemy2Attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
