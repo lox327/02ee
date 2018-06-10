@@ -9,5 +9,6 @@ transitionSpeed_building = 0.03;
 currentRoom = "";
 
 pause = false;
+allObjects[0,0] = noone;
 
 gun = 2;

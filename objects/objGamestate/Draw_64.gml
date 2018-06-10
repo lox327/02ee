@@ -1,7 +1,7 @@
 /// @description debug info
 
 //debug
-if (1) {
+if (0) {
 	draw_text(1020, 12, "state: " + string(state));
 	draw_text(1020, 24, "alpha: " + string(alpha));
 	draw_text(1020, 36, "room: " + string(room));
@@ -15,6 +15,16 @@ if (1) {
 
 //pause/inv
 if (pause) {
+	//draw_text(500, 500, "paused");
+	for (var i = 0; i < array_height_2d(allObjects); i++) {
+		draw_sprite_ext(allObjects[i,0],allObjects[i,1],allObjects[i,2],allObjects[i,3],
+		allObjects[i,4],allObjects[i,5],allObjects[i,6],allObjects[i,7],allObjects[i,8]/2)
+		
+	}
+	
+	
+	
+	
 	//draw_set_color(c_black);
 	//draw_set_alpha(0.05);
 	//draw_rectangle(view_xport[0],view_yport[0],view_wport[0],view_hport[0],true); //x,y,w,h of vport0
