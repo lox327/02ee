@@ -15,7 +15,8 @@ else if (numKey == 2) {
 }
 else if (numKey == 3) {
 	bulletType = objBullet3;
-	weaponEnergy -=20;
+	gun = gun3;
+	weaponEnergy -=10;
 }
 
 

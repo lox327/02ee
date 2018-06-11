@@ -95,6 +95,10 @@ else if (keyboard_check(ord("2"))) {
 	numKey = 2;
 	gun = gun2;
 }
+else if (keyboard_check(ord("3"))) {
+	numKey = 3;
+	gun = gun3;
+}
 
 
 //handle inventory

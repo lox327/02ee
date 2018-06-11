@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1275c6bf-a34e-4521-a71c-9872635884f0",
+            "Value": {
+                "id": "97562096-4dc4-404c-ba08-83f07488c312",
+                "resourcePath": "objects\\objBullet3\\objBullet3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12bb15e7-ad5f-4cb2-8fb2-dc5dba2ca11c",
             "Value": {
                 "id": "7d56d198-4e93-4df7-a8a6-5781fb56f672",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "36fc7366-69a6-4f61-b950-fc28191455e8",
+            "Value": {
+                "id": "685a9210-2ae8-42af-ba42-7b68472d314b",
+                "resourcePath": "sprites\\bullet3\\bullet3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f418395-a966-4e89-b625-3a337fdbfbd6",
             "Value": {
                 "id": "e5808df5-d101-49db-9237-9d2455e6172f",
@@ -275,6 +291,14 @@
             "Value": {
                 "id": "4dd3685b-2fbd-4ce4-94be-ab7f61f37d2c",
                 "resourcePath": "sprites\\energy\\energy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "515743a8-4fd2-4e22-99e9-5193bbdc6ed8",
+            "Value": {
+                "id": "2c627474-1513-495a-9247-c88729351208",
+                "resourcePath": "sprites\\gun3\\gun3.yy",
                 "resourceType": "GMSprite"
             }
         },
