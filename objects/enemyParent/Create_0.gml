@@ -12,7 +12,8 @@ enum GameState
 	 IDLE,
      ATTACK1,
 	 ATTACK2,
-     CHASE, 
+     CHASE,
+	 STUN
 };
 gameState = GameState.IDLE;
 timer = 100; 

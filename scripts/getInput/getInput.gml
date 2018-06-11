@@ -45,3 +45,21 @@ actShoot = keyboard_check_pressed(vk_space);
 //actPause = keyboard_check_pressed(vk_tab);
 	
 gameEnd = keyboard_check_pressed(vk_escape);
+
+num = 0;
+if keyboard_check_pressed(ord("P"))
+   {
+	//screen_save(working_directory + "\Screens\Screen_"+string(num)+".png")
+	//num += 1;
+	var surf;
+	surf = surface_create(32, 32);
+	surface_set_target(surf);
+	draw_clear_alpha(c_black, 0);
+	spr_custom = sprite_create_from_surface(surf, 0, 0, 32, 32, true, true, 16, 16);
+	sprite_index = spr_custom;
+	draw_sprite(sprite_index, image_index, x, y);
+	//draw_sprite(spr_custom, 0, x, y-32);
+	surface_reset_target();
+	//surface_free(surf);
+	//num += 1;
+   }

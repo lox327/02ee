@@ -86,9 +86,15 @@ if (actShoot) {
 //inc default energy every step to regen, should use var
 if (defaultEnergy < defaultMax) defaultEnergy += .50; //defaultEnergy++;
 
-//switch
-if (keyboard_check(ord("1"))) numKey = 1;
-else if (keyboard_check(ord("2"))) numKey = 2;
+//switch, gun/bullet sel
+if (keyboard_check(ord("1"))) {
+	numKey = 1;
+	gun = gun1;
+}
+else if (keyboard_check(ord("2"))) {
+	numKey = 2;
+	gun = gun2;
+}
 
 
 //handle inventory

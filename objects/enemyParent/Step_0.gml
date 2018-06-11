@@ -59,6 +59,19 @@ switch (gameState) {
         }
         break; 
     } 
+	case GameState.STUN: 
+    { 
+        //do another action 
+        move_towards_point(objPlayer.x, objPlayer.y, 0);
+		sprite_index = enemy2Stun;
+		
+		if (timer <= 0) //switch action
+        { 
+            timer = 100;
+            gameState = GameState.MOVE;
+        }
+        break; 
+    } 
 	case GameState.CHASE: 
     { 
 		//sprite_index = enemy2Attack;

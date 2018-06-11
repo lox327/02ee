@@ -5,11 +5,13 @@ duration = 10;
 //switch for weapon/bulletType
 if (numKey == 1) {
 	bulletType = objBullet;
-	if (defaultEnergy > -20) defaultEnergy -=25;
+	gun = gun1;
+	if (defaultEnergy > -20) defaultEnergy -=20;
 }
 else if (numKey == 2) {
 	bulletType = objBullet2;
-	weaponEnergy -=25; //use var so we can have this dynamic to reduce in talent tree
+	gun = gun2;
+	weaponEnergy -=5; //use var so we can have this dynamic to reduce in talent tree
 }
 else if (numKey == 3) {
 	bulletType = objBullet3;

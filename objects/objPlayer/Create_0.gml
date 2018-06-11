@@ -12,6 +12,7 @@ defaultEnergy = 100;
 weaponEnergy = 50;
 health = 90;
 currency = 0;
+gun = gun1;
 
 
 //MAX
