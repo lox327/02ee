@@ -1,4 +1,4 @@
-health -= 50;
+health -= 25;
 objPlayer.x -= 100;
 
 if (health <= 0) {

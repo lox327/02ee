@@ -95,7 +95,7 @@ switch (gameState) {
     }
 	case GameState.ATTACK2: 
     { 
-		sprite_index = enemy2Attack;
+		sprite_index = enemy2Attack2;
 		move_towards_point(objPlayer.x, objPlayer.y, spd*2);
 		if (timer <= 0) //switch action
         { 

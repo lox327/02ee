@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "3dffe301-cb1c-4a75-b9d9-bc105a09ce11",
+            "Value": {
+                "id": "481b8191-ac1a-498c-b0ef-4b925932d3cf",
+                "resourcePath": "sprites\\enemyAttack2\\enemyAttack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f418395-a966-4e89-b625-3a337fdbfbd6",
             "Value": {
                 "id": "e5808df5-d101-49db-9237-9d2455e6172f",
@@ -495,10 +503,26 @@
             }
         },
         {
+            "Key": "9a0db217-e499-4da1-bb2c-23437a8550f1",
+            "Value": {
+                "id": "a475bf50-7835-4310-8109-d70a50bb64c0",
+                "resourcePath": "sprites\\enemyAttack1\\enemyAttack1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9a64b9be-a9f9-4bcf-9a52-1f3e6888b0f6",
             "Value": {
                 "id": "50c34087-8a3b-430c-951b-bd00cc317ef5",
                 "resourcePath": "sprites\\tiles\\tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9bba5135-c4d9-46a1-80bf-1881b7d73284",
+            "Value": {
+                "id": "9fd3676f-ded2-4728-a394-fd9a36316aa6",
+                "resourcePath": "sprites\\enemyStun\\enemyStun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -546,7 +570,7 @@
             "Key": "b02ea05c-e0c4-4331-b145-c6d1c61ad706",
             "Value": {
                 "id": "9ce2f3e4-bdff-4ced-8e5a-c2404fa33485",
-                "resourcePath": "sprites\\enemy2Attack\\enemy2Attack.yy",
+                "resourcePath": "sprites\\enemy2Attack2\\enemy2Attack2.yy",
                 "resourceType": "GMSprite"
             }
         },

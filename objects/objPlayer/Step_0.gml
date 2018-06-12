@@ -1,7 +1,7 @@
 // get input, 0 is first controller
 if (objGamestate.state == "IN_GAME")
 {
-getInput(0);
+getInput();
 
 xvel = xx * playerSpeed;
 yvel = yy * playerSpeed;
