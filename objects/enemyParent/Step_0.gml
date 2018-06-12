@@ -2,6 +2,8 @@ if (hp <= 0)  instance_destroy();
 //image_index = direction;
 //event_user(0);//Choose a State
 
+if (abs(self.x - objPlayer.x) <= self.sightRange)
+{
 switch (gameState) {
     case GameState.MOVE: 
     { 
@@ -107,3 +109,4 @@ switch (gameState) {
     }
 } 
 timer--;
+}
