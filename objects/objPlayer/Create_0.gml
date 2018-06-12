@@ -1,3 +1,5 @@
+setDepth();
+
 playerSpeed = (sprite_width/8*0.5) + 1;
 animation = (playerSpeed*0.1)*image_number;
 grid = sprite_width;

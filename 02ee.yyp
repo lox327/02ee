@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "4a235411-7332-42b2-8314-cc208c2aec15",
+            "Value": {
+                "id": "9b7a4fc4-9a3b-4db5-859c-187fb631c3da",
+                "resourcePath": "sprites\\tank\\tank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a4eefe1-0caa-4029-9b1c-7a12e5c9b34a",
             "Value": {
                 "id": "b2ccfbf9-5560-47c6-84fe-2354236fd8a9",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "9ef122c7-0f13-4bf8-a317-8d7b2ce2db58",
+            "Value": {
+                "id": "fbb0edd6-45e1-4c02-bc8f-67598ca19efd",
+                "resourcePath": "sprites\\blocks\\blocks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f5c4233-c1f9-4933-86a9-07cd79ff52fb",
             "Value": {
                 "id": "1d980120-deb3-4fe1-ba31-e5660655dee3",
@@ -540,6 +556,14 @@
                 "id": "165150b2-5892-47c2-a124-77b93c95e748",
                 "resourcePath": "sprites\\bullet2\\bullet2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a35fb636-a572-49ce-85ba-8ffa8f158996",
+            "Value": {
+                "id": "4c894ec6-b10e-46a0-ae80-891ea856a557",
+                "resourcePath": "scripts\\setDepth\\setDepth.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -604,6 +628,14 @@
                 "id": "b5a68c5b-6f92-48be-866b-7f0539c6df1e",
                 "resourcePath": "sprites\\enemy2Idle\\enemy2Idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be10bf26-337a-47c8-b806-01963fc17b89",
+            "Value": {
+                "id": "946e1eef-4e72-4c35-a104-e527ccbe6cad",
+                "resourcePath": "objects\\objTank\\objTank.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -719,6 +751,14 @@
             }
         },
         {
+            "Key": "e3730628-92db-4336-92c9-ee58135aaa0c",
+            "Value": {
+                "id": "0e906cbd-49fd-4f65-8ba3-44329cbd198e",
+                "resourcePath": "objects\\objBlock\\objBlock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e93d3dad-1233-4243-96cc-89963e727024",
             "Value": {
                 "id": "44571269-51f0-465f-a9ab-394a9a6f0fb8",
@@ -787,7 +827,8 @@
         "d0fa18d6-0c0d-4a6b-af28-153cb5633374",
         "a44729b9-6766-40ae-82bd-a0a0869d54f5",
         "269460a8-66b0-48da-a68e-abe02b237abf",
-        "9f5c4233-c1f9-4933-86a9-07cd79ff52fb"
+        "9f5c4233-c1f9-4933-86a9-07cd79ff52fb",
+        "a35fb636-a572-49ce-85ba-8ffa8f158996"
     ],
     "tutorial": ""
 }

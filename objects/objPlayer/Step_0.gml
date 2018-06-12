@@ -9,7 +9,7 @@ yvel = yy * playerSpeed;
 //movement
 if (state == "idle") {
 	//x, hor
-	if (place_meeting(x+xvel, y, objWall)) {
+	/*if (place_meeting(x+xvel, y, objWall)) {
 		while(!place_meeting(x+sign(xvel),y, objWall))	 {
 			x += sign(xvel);
 		}
@@ -24,7 +24,13 @@ if (state == "idle") {
 		}
 		yvel = 0;
 	}
-	y += yvel;
+	y += yvel;*/
+	
+	if (!position_meeting(x+xvel, y+yvel, objBlock)) {
+		x += xvel;
+		y += yvel;
+
+	}
 
 	//move animation
 	if (abs(xvel) < abs(yvel)) {
@@ -130,3 +136,5 @@ if (state != "idle") {
 }
 
 }
+
+setDepth();
