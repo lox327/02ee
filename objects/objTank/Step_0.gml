@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-setDepth();
-hp = 2;
+if (hp <= 0)  instance_destroy();
