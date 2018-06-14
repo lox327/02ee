@@ -9,7 +9,7 @@
         "23f116ad-0757-46a0-811f-d31e4bae73c5"
     ],
     "filterType": "GMObject",
-    "folderName": "Items",
+    "folderName": "Drop Items",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
