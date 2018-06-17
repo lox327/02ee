@@ -28,7 +28,21 @@ switch(state) {
 } 
 
 //PAUSE
-if (keyboard_check_pressed(vk_tab)) {
+/*if (keyboard_check_pressed(vk_tab)) {
+	if (!pause) {
+		instance_deactivate_all(true);	
+		pause = true;
+		currentRoom = room;
+		room_goto(inventory);
+	}
+	else {
+		instance_activate_all();
+		pause = false;
+		room_goto(room);
+	}
+}*/
+
+/*if (keyboard_check_pressed(vk_tab)) {
 	if (!pause) {
 		var offset = 0;
 		for (var i = 0; i < instance_count; i++) {
@@ -56,7 +70,7 @@ if (keyboard_check_pressed(vk_tab)) {
 
 	}
 }
-
+*/
 
 //PAUSE
 /*if (keyboard_check_pressed(vk_tab)) {

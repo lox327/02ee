@@ -3,6 +3,7 @@ if (objGamestate.state == "IN_GAME")
 {
 getInput();
 
+
 xvel = xx * playerSpeed;
 yvel = yy * playerSpeed;
 

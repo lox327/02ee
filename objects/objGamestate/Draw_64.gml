@@ -13,8 +13,9 @@ if (0) {
 	//draw_text(10, 84, "start point y: " + string(sp.y));
 }
 
+
 //pause/inv
-if (pause) {
+/*if (pause) {
 	//draw_text(500, 500, "paused");
 	//draw_sprite_ext(PauseBack,0,view_xview,view_yview,PauseBack,PauseBack,0,c_white,1);
 
@@ -35,3 +36,4 @@ if (pause) {
 	//draw_set_alpha(1);
 }
 
+*/

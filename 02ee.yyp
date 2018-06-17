@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "6d5e9ae1-6222-4b75-a1fd-1a5c1d41ae39",
+            "Value": {
+                "id": "abac9bba-26e2-4849-a372-2068324f5d68",
+                "resourcePath": "objects\\objSkills\\objSkills.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70f68862-a4d6-4c08-8479-354ec209014f",
             "Value": {
                 "id": "a6825832-fa87-4a05-a6f8-f1a8793653d5",
@@ -468,6 +476,14 @@
                 "id": "9e039930-4976-4496-aafb-a6bba1f5d32d",
                 "resourcePath": "sprites\\enemyRight\\enemyRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "889b1931-59b0-4cad-b5d2-f9f3e68856e3",
+            "Value": {
+                "id": "3860af48-1bae-474e-ab34-5f787814225e",
+                "resourcePath": "objects\\objSwitch\\objSwitch.yy",
+                "resourceType": "GMObject"
             }
         },
         {

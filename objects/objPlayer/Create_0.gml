@@ -6,6 +6,7 @@ grid = sprite_width;
 
 dir = "right";
 state = "idle";
+pause = false;
 
 
 //DEFAULTS
