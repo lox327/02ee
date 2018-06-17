@@ -2,7 +2,7 @@
     "id": "889b1931-59b0-4cad-b5d2-f9f3e68856e3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSwitch",
+    "name": "objSwitchRooms",
     "eventList": [
         {
             "id": "afe0291f-05ad-42ca-b51e-6a0c120287e7",

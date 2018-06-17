@@ -3,7 +3,7 @@
 if (!pause5) {
 	pause5 = 1;
 	instance_deactivate_all(true);
-	//create other objs here
+	//create other objs here, pause menu, chat screen?
 }
 
 else {

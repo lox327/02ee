@@ -10,12 +10,13 @@ pause = false;
 
 
 //DEFAULTS
-numKey = 1;
+gunSel = 1;
 defaultEnergy = 100;
 weaponEnergy = 50;
 health = 90;
 currency = 0;
 gun = gun1;
+timer = 0;
 
 
 //MAX

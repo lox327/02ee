@@ -80,8 +80,9 @@ bash();
 
 //attackShoot
 if (actShoot) {
-	//if (instance_number(objBullet) < 30 && ( weaponEnergy > 0 || (numKey == 1 && defaultEnergy > 0) )) shoot(); //weapon 1 doesn't use energy
-	if (numKey == 1) {						//default gun, doesn't use energy
+	timer = 0;
+	//if (instance_number(objBullet) < 30 && ( weaponEnergy > 0 || (gunSel == 1 && defaultEnergy > 0) )) shoot(); //weapon 1 doesn't use energy
+	if (gunSel == 1) {						//default gun, doesn't use energy
 		if ( defaultEnergy > 0 ) shoot();
 	}
 	
@@ -91,19 +92,22 @@ if (actShoot) {
 
 
 //inc default energy every step to regen, should use var
-if (defaultEnergy < defaultMax) defaultEnergy += .50; //defaultEnergy++;
+if (defaultEnergy < defaultMax) {
+	if (timer <=0 ) defaultEnergy += .50; //defaultEnergy++;
+	else timer--;
+}
 
 //switch, gun/bullet sel
 if (keyboard_check(ord("1"))) {
-	numKey = 1;
+	gunSel = 1;
 	gun = gun1;
 }
 else if (keyboard_check(ord("2"))) {
-	numKey = 2;
+	gunSel = 2;
 	gun = gun2;
 }
 else if (keyboard_check(ord("3"))) {
-	numKey = 3;
+	gunSel = 3;
 	gun = gun3;
 }
 
