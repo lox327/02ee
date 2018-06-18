@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "093ffbeb-4b1c-46fa-ad5c-5f029ac3d651",
+            "Value": {
+                "id": "42754abd-9d8e-46da-a2f5-f645d758ef25",
+                "resourcePath": "views\\093ffbeb-4b1c-46fa-ad5c-5f029ac3d651.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0a61d96e-e8c0-436e-a91f-6458ad634cfe",
             "Value": {
                 "id": "53cfba7d-6faa-4339-b1ba-0670599562e2",
@@ -275,6 +283,14 @@
             "Value": {
                 "id": "778c3288-8358-4203-90a4-1564d28dadf9",
                 "resourcePath": "sprites\\hp1\\hp1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46039bd3-063f-4db3-80e6-75715334cde9",
+            "Value": {
+                "id": "cbf98a73-533b-43bd-a98f-e85310cfbced",
+                "resourcePath": "sprites\\s1\\s1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -639,6 +655,14 @@
             }
         },
         {
+            "Key": "b4c5d527-0b7b-444e-9191-bb7aa95f2210",
+            "Value": {
+                "id": "ff820afc-7a39-411a-a2e7-6535fd4c6d8e",
+                "resourcePath": "objects\\skill0\\skill0.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b5d5993d-2a2e-4ea3-a438-77ee3d53f071",
             "Value": {
                 "id": "1551d5de-7a47-4326-8b05-a9b5acb020bf",
@@ -727,6 +751,14 @@
             }
         },
         {
+            "Key": "da0c2976-1a46-4a33-b865-1bb19480f6a7",
+            "Value": {
+                "id": "7351ea12-d20e-4954-9ee5-91e7b230cf40",
+                "resourcePath": "sprites\\s0\\s0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "daaf660d-4f56-454c-bc17-da0bf2f59fee",
             "Value": {
                 "id": "83d318b5-9e64-4b95-982b-6d843ddb691c",
@@ -812,6 +844,22 @@
                 "id": "046db246-d043-4ae8-bd3c-674405c207d5",
                 "resourcePath": "fonts\\fnt_GUI\\fnt_GUI.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "eea7638e-5cec-449d-9c8a-aa2a8a32015d",
+            "Value": {
+                "id": "91068ea7-975b-4479-826d-fcb1de225726",
+                "resourcePath": "objects\\obj_skill\\obj_skill.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f0fd7283-75cc-4520-a6c4-114df7266120",
+            "Value": {
+                "id": "55f049e8-da0e-4f02-902b-bcfa07328868",
+                "resourcePath": "objects\\skill1\\skill1.yy",
+                "resourceType": "GMObject"
             }
         },
         {

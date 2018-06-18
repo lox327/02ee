@@ -17,7 +17,8 @@ if (gamepad_is_connected(0)) {
 	xx = gamepad_axis_value(device, gp_axislh);
 	yy = gamepad_axis_value(device, gp_axislv);
 	
-	actAttack =	gamepad_button_check_pressed(device, gp_face1);
+	//b_num = gamepad_button_count(device);
+	actAttack =	gamepad_button_check(device, gp_face1);
 	actShoot = gamepad_button_check_pressed(device, gp_face2);
 	
 }
