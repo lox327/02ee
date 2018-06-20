@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "093ffbeb-4b1c-46fa-ad5c-5f029ac3d651",
     "children": [
-        "da0c2976-1a46-4a33-b865-1bb19480f6a7",
-        "46039bd3-063f-4db3-80e6-75715334cde9"
+        "395a83c5-3b92-4243-bad3-cb607eb773cb",
+        "4e8e6ed3-680e-47f9-8c2f-4c0ef289399d"
     ],
     "filterType": "GMSprite",
     "folderName": "Skills",
