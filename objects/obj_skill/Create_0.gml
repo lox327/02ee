@@ -10,4 +10,3 @@ linetox[0] = 0	// this will be an array of where to draw every line coming out o
 linetoy[0] = 0
 
 status = 0 // 0 = unavailable, 1 = available, purchased = 2
-

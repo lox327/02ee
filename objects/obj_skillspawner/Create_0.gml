@@ -5,41 +5,42 @@ This object has all the data needed to make the skills in an array and then goes
 
 #region // DATA tree (old)
 
-skillname[1] = "Skill2"
+skillname[1] = "Skill2.0"
 skillimage[1] = 4
 skillneeds[1,0] = -1  // -1 always available 
 skillx[1] = 200
 skilly[1] = 200
 
-skillname[2] = "Skill3"
+skillname[2] = "Skill3.0"
 skillimage[2] = 7
 skillneeds[2,0] = -1  // -1 always available 
 skillx[2] = 400
 skilly[2] = 200
 
-skillname[5] = "Skill2.1"
-skillimage[5] = 4
-skillneeds[5,0] = 1 
-skillx[5] = 200+25
-skilly[5] = 250
-
-skillname[6] = "Skill2.2"
+skillname[6] = "Skill2.1"
 skillimage[6] = 4
 skillneeds[6,0] = 1 
 skillx[6] = 200-25
 skilly[6] = 250
 
-skillname[7] = "Skill3.1"
+skillname[5] = "Skill2.2"
+skillimage[5] = 4
+skillneeds[5,0] = 1 
+skillx[5] = 200+25
+skilly[5] = 250
+
+skillname[8] = "Skill3.1"
+skillimage[8] = 7
+skillneeds[8,0] = 2 
+skillx[8] = 400-25
+skilly[8] = 250
+
+skillname[7] = "Skill3.2"
 skillimage[7] = 7
 skillneeds[7,0] = 2 
 skillx[7] = 400+25
 skilly[7] = 250
 
-skillname[8] = "Skill3.2"
-skillimage[8] = 7
-skillneeds[8,0] = 2 
-skillx[8] = 400-25
-skilly[8] = 250
 
 #endregion
 

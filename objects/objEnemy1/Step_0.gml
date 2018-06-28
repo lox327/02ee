@@ -31,7 +31,7 @@ switch (gameState) {
 			else gameState = GameState.ATTACK1;
 		}
 		
-		//CHASE - based on distance, % from rand
+		//CHASE
 		else if (distance_to_object(objPlayer) < 100) {
 			//timer = 10;
 			gameState = GameState.CHASE;
