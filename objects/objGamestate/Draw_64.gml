@@ -1,13 +1,14 @@
 /// @description debug info
 
 //debug
-if (0) {
+if (1) {
 	draw_text(1020, 12, "state: " + string(state));
 	draw_text(1020, 24, "alpha: " + string(alpha));
 	draw_text(1020, 36, "room: " + string(room));
-	draw_text(1020, 48, "numKey: " + string(objPlayer.numKey));
+	//draw_text(1020, 48, "numKey: " + string(objPlayer.numKey));
 	draw_text(1020, 60, "health: " + string(health));
 	draw_text(1020, 72, "weapon energy: " + string(objPlayer.weaponEnergy));
+	draw_text(1020, 84, "checkpoint1: " + string(global.checkpoint1));
 	//draw_text(1020, 84, "test: " +   string(instance_find(objEnemy3,0)));
 	//draw_text(10, 72, "start point x: " + string(sp.x));
 	//draw_text(10, 84, "start point y: " + string(sp.y));

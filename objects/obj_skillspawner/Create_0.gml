@@ -55,7 +55,7 @@ for (i=0; i<array_length_1d(skillname); i++) // loop around for each skill
 	newskill.skillname = skillname[i]
 	newskill.skillid = i
 
-	show_debug_message("We have made skill " +string(skillname[i]))
+	//show_debug_message("We have made skill " +string(skillname[i]))
 	
 	// ASSERT – at this point the object skill has been made 
 	
@@ -64,7 +64,7 @@ for (i=0; i<array_length_1d(skillname); i++) // loop around for each skill
 		for (j=0; j<array_length_2d(other.skillneeds,other.i); j+=1) // loop around all the skills I connect to 
 		{
 			skillneeds[j] = other.skillneeds[other.i,j]
-			show_debug_message("Skill "+ string(newskill.skillname) + " needs " + string(skillneeds[j]))
+			//show_debug_message("Skill "+ string(newskill.skillname) + " needs " + string(skillneeds[j]))
 			
 			if (skillneeds[j] == -1) { // This skill is always available so draw a line to the central object 
 				
@@ -89,4 +89,7 @@ for (i=0; i<array_length_1d(skillname); i++) // loop around for each skill
 #endregion
 #region // we are done with this object so delete it now (you could keep it if you still wanted to access the data)
 //instance_destroy()
+if (true) {
+	test = 0;
+}
 #endregion

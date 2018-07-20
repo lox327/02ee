@@ -1,0 +1,4 @@
+melee	crtl
+shoot	space
+skills	tab
+pause	c

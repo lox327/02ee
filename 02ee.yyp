@@ -383,6 +383,22 @@
             }
         },
         {
+            "Key": "57b5d69d-eb5e-4201-a1a4-3bb820b33ef1",
+            "Value": {
+                "id": "a0d3c52c-1ecb-4e15-97fe-3160442df282",
+                "resourcePath": "objects\\objEnemy3\\objEnemy3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58f2df6e-9bd9-498c-b1fc-3eac0669cf29",
+            "Value": {
+                "id": "d2117b97-f0a3-4c9a-b43c-cfcce5ebabbd",
+                "resourcePath": "sprites\\enemy3Idle\\enemy3Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59cc111c-4694-47cc-a610-0c4a250e0b1b",
             "Value": {
                 "id": "fc8ce246-cb43-4935-b81b-012e4973d790",
@@ -460,6 +476,14 @@
                 "id": "b6517249-2ad4-455f-bfe1-a8a530707c13",
                 "resourcePath": "sprites\\playerDown\\playerDown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "73088c0a-a44c-4b6c-a965-ccc1c628c9f6",
+            "Value": {
+                "id": "07a30b19-1464-408c-a41b-2bae906b7935",
+                "resourcePath": "notes\\controls.yy",
+                "resourceType": "GMNotes"
             }
         },
         {

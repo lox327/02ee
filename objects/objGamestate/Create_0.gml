@@ -13,6 +13,6 @@ allObjects[0,0] = noone;
 
 gun = 2;
 
-checkpoint1 = 0;
-checkpoint2 = 0;
-checkpoint3 = 0;
+global.checkpoint1 = 0;
+global.checkpoint2 = 0;
+global.checkpoint3 = 0;

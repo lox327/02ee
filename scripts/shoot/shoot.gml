@@ -16,7 +16,7 @@ else if (gunSel == 2) {
 else if (gunSel == 3) {
 	bulletType = objBullet3;
 	gun = gun3;
-	weaponEnergy -=10;
+	weaponEnergy -=10; //how much weapon energy to use
 }
 
 
