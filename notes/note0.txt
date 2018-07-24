@@ -8,3 +8,5 @@ room transition
 fix controller
 
 char screen, pause game in background
+stop player movement when dialog box
+slow player movement in diagnol
