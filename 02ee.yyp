@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "851d8f5f-4a2e-49de-9c40-4da0e341bfd3",
+            "Value": {
+                "id": "a207dfce-111d-477c-af52-8c283e22de73",
+                "resourcePath": "notes\\map.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "85e62e5e-31a5-4a5e-85b1-2d40fe6f965e",
             "Value": {
                 "id": "9e039930-4976-4496-aafb-a6bba1f5d32d",
@@ -716,6 +724,14 @@
                 "id": "4c894ec6-b10e-46a0-ae80-891ea856a557",
                 "resourcePath": "scripts\\setDepth\\setDepth.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a3fd4de9-8992-4b2d-aff9-93e2748425a7",
+            "Value": {
+                "id": "e956ee26-78b8-4501-86a1-6eb4b40e3b1d",
+                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

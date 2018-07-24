@@ -1,0 +1,7 @@
+				  room2b
+					|
+room1 == room0 == room2-room2a
+		   ||
+		 room3-room3a
+		   |
+		 room3b

@@ -20,3 +20,6 @@ global.checkpoint3 = 0;
 global.d_checkpoint1 = 1;
 global.d_checkpoint2 = 0;
 global.d_checkpoint3 = 0;
+
+global.room2_x = 0;
+global.room2_y = 0;
