@@ -10,10 +10,10 @@ switch (gameState) {
 		move_towards_point(objPlayer.x, objPlayer.y, spd);
 		
 		//SPRITE SEL
-		if (self.x > objPlayer.x) sprite_index = enemy2Left;
-		else sprite_index = enemy2Right;
-		if (self.y > objPlayer.y) sprite_index = enemy2Up;
-		else sprite_index = enemy2Down;
+		if (self.x > objPlayer.x) sprite_index = enemy3Left;
+		else sprite_index = enemy3Right;
+		if (self.y > objPlayer.y) sprite_index = enemy3Up;
+		else sprite_index = enemy3Down;
 		
 		//avoid colliding/overlapping with other enemy
 		if (distance_to_object(enemyParent) > 20) {
@@ -51,7 +51,7 @@ switch (gameState) {
     { 
         //do another action 
         move_towards_point(objPlayer.x, objPlayer.y, 0);
-		sprite_index = enemy2Idle;
+		sprite_index = enemy3Idle;
 		
 		if (timer <= 0) //switch action
         { 
@@ -64,7 +64,7 @@ switch (gameState) {
     { 
         //do another action 
         move_towards_point(objPlayer.x, objPlayer.y, 0);
-		sprite_index = enemy2Stun;
+		sprite_index = enemy3Stun;
 		
 		if (timer <= 0) //switch action
         { 
@@ -75,7 +75,7 @@ switch (gameState) {
     } 
 	case GameState.CHASE: 
     { 
-		//sprite_index = enemy2Attack;
+		//sprite_index = enemy3Attack;
 		move_towards_point(objPlayer.x, objPlayer.y, spd*2);
         timer = 100;
         gameState = GameState.MOVE;
@@ -84,7 +84,7 @@ switch (gameState) {
 	
 	case GameState.ATTACK1: 
     { 
-		sprite_index = enemy2Attack1;
+		sprite_index = enemy3Attack1;
 		move_towards_point(objPlayer.x, objPlayer.y, spd*4);
 		if (timer <= 0) //switch action
         { 
@@ -96,7 +96,7 @@ switch (gameState) {
     }
 	case GameState.ATTACK2: 
     { 
-		sprite_index = enemy2Attack2;
+		sprite_index = enemy3Attack2;
 		move_towards_point(objPlayer.x, objPlayer.y, spd*2);
 		if (timer <= 0) //switch action
         { 

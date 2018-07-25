@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1cdb0179-9159-4925-88bf-a49a2ab4e1c0",
+            "Value": {
+                "id": "772e620a-7396-4116-a208-605f3dfde671",
+                "resourcePath": "objects\\objPower\\objPower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d286b00-eeb3-483b-abe1-a4b4dd343983",
             "Value": {
                 "id": "4db3dda9-9973-4449-ab8d-9d7cf2bc91a5",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "2abf00ba-a5f8-4e3f-ba48-6428e063ec6f",
+            "Value": {
+                "id": "01b907b7-b88b-4ce9-9e9b-78ce83112084",
+                "resourcePath": "sprites\\enemy3Right\\enemy3Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b7d0ad1-fec0-4ee6-b424-7f9ead07a928",
             "Value": {
                 "id": "49780a5c-13fd-4943-9fc0-85211fd2375b",
@@ -267,6 +283,14 @@
             "Value": {
                 "id": "d0cace63-83ed-428e-807d-7624bef28319",
                 "resourcePath": "sprites\\spr_available\\spr_available.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3b8fa866-d47c-4878-be2d-98bdb7d57aed",
+            "Value": {
+                "id": "ef923b55-252a-4c41-9605-bd4f930a454e",
+                "resourcePath": "sprites\\key\\key.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "4d6f868e-ba6b-4443-964d-5138fe2b044e",
+            "Value": {
+                "id": "764318f5-013e-4962-969a-b2222b55436c",
+                "resourcePath": "objects\\objKey\\objKey.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4e8e6ed3-680e-47f9-8c2f-4c0ef289399d",
             "Value": {
                 "id": "1a8409c4-ab52-4c76-9b30-ebc1a74a7539",
@@ -415,14 +447,6 @@
             }
         },
         {
-            "Key": "58f2df6e-9bd9-498c-b1fc-3eac0669cf29",
-            "Value": {
-                "id": "d2117b97-f0a3-4c9a-b43c-cfcce5ebabbd",
-                "resourcePath": "sprites\\enemy3Idle\\enemy3Idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "59cc111c-4694-47cc-a610-0c4a250e0b1b",
             "Value": {
                 "id": "fc8ce246-cb43-4935-b81b-012e4973d790",
@@ -455,6 +479,14 @@
             }
         },
         {
+            "Key": "5e0c6bfd-9ef6-4179-b2f0-22016c060659",
+            "Value": {
+                "id": "64d74d51-6627-4685-987c-0ec6d3f02507",
+                "resourcePath": "sprites\\enemy3Stun\\enemy3Stun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e1fe802-f445-4fd4-88e9-da0b801c5042",
             "Value": {
                 "id": "d35bd546-bc1d-4bae-be9b-fd57d98ed7f4",
@@ -479,6 +511,14 @@
             }
         },
         {
+            "Key": "65e91a39-13f0-425c-97ba-02370a02f31a",
+            "Value": {
+                "id": "d946b2b9-c8a8-4bc1-98e5-922300759901",
+                "resourcePath": "sprites\\enemy3Down\\enemy3Down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69ae36b7-4794-41af-8645-5350bad360a3",
             "Value": {
                 "id": "5694af39-c2d8-4560-bb65-4d586b783e47",
@@ -499,6 +539,14 @@
             "Value": {
                 "id": "17d319e9-5dd0-4f45-b43e-499536aeb09c",
                 "resourcePath": "sprites\\sprTtyler\\sprTtyler.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f38ed74-33d6-4b5b-82d7-16f2d8422175",
+            "Value": {
+                "id": "7affbc15-6510-42b1-9034-795102bf9c7b",
+                "resourcePath": "sprites\\enemy3Up\\enemy3Up.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -644,6 +692,14 @@
                 "id": "6b3e9c68-a527-4c7d-8c13-ba769492447a",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "95629af6-75c3-4a60-920e-e989ba868fe2",
+            "Value": {
+                "id": "3670e26a-621e-4dec-b3f4-6bb4a2634ca4",
+                "resourcePath": "sprites\\enemy3Idle\\enemy3Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -863,6 +919,14 @@
             }
         },
         {
+            "Key": "c58cd0cd-6ff9-4496-92ac-993e515a12ca",
+            "Value": {
+                "id": "42bea3c9-24a7-4efe-811b-8d99a1bcc6f3",
+                "resourcePath": "views\\c58cd0cd-6ff9-4496-92ac-993e515a12ca.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c6690bd4-11ba-41e5-863a-a67f8702d944",
             "Value": {
                 "id": "5df7c11d-5e96-44b1-b4f7-3f524c2180e6",
@@ -924,6 +988,22 @@
                 "id": "3a0ea953-6deb-4998-a7b6-2349fe33f231",
                 "resourcePath": "scripts\\getDialog\\getDialog.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d2c29c15-4a3f-4191-be3d-f87b450c6acf",
+            "Value": {
+                "id": "46aa214b-765d-468c-830d-26ef98f52c4e",
+                "resourcePath": "sprites\\enemy3Attack1\\enemy3Attack1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d91366dd-5381-4e37-92fa-284a50f47484",
+            "Value": {
+                "id": "2ca73fcd-d63c-44ec-8906-35f129133b64",
+                "resourcePath": "sprites\\enemy3Left\\enemy3Left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1084,6 +1164,14 @@
                 "id": "06472b58-55fe-46bb-afa5-edbe378142d3",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6069684-841e-4a6a-a4b8-f70315257615",
+            "Value": {
+                "id": "93a3fa76-5765-40b4-be15-bcf48a427d55",
+                "resourcePath": "sprites\\enemy3Attack2\\enemy3Attack2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

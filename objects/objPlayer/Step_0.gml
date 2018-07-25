@@ -27,7 +27,7 @@ if (state == "idle") {
 	}
 	y += yvel;*/
 	
-	if (!position_meeting(x+xvel, y+yvel, objTank) && !position_meeting(x+xvel, y+yvel, objBlock)) {
+	if ( !position_meeting(x+xvel, y+yvel, objTank) && !position_meeting(x+xvel, y+yvel, objBlock) && !position_meeting(x+xvel, y+yvel, objPower) ) {
 		x += xvel;
 		y += yvel;
 
