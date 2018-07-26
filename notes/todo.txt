@@ -11,7 +11,7 @@ fix controller
 
 char screen, pause game in background
 stop player movement when dialog box
-slow player movement in diagnol
+	done: slow player movement in diagonal dir
 
 animation for gun bash
 animtaion for shooting

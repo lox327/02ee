@@ -1,6 +1,9 @@
 setDepth();
 
 playerSpeed = (sprite_width/8*0.5) + 1;
+walkSpeed = playerSpeed;
+diagSpeed = round(playerSpeed * (sqrt(2)/2));
+
 animation = (playerSpeed*0.1)*image_number;
 grid = sprite_width;
 

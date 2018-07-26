@@ -32,6 +32,13 @@ if (state == "idle") {
 		y += yvel;
 
 	}
+	
+	//diagonal movement
+	if ( xvel != 0 && yvel != 0 ) {
+		playerSpeed = diagSpeed;
+	}
+	else playerSpeed = walkSpeed;
+	
 
 	//move animation
 	if (abs(xvel) < abs(yvel)) {
