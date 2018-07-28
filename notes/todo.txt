@@ -16,4 +16,11 @@ stop player movement when dialog box
 animation for gun bash
 animtaion for shooting
 
-enemy collide with each other
+prevent enemy collide with each other
+flash white on hit?
+
+special abil:
+-check bitbucket, slack
+-shield
+-shield + heal
+-wep overcharge
