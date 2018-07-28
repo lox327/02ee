@@ -18,6 +18,7 @@ animtaion for shooting
 
 prevent enemy collide with each other
 flash white on hit?
+flash color on special attack
 
 special abil:
 -check bitbucket, slack

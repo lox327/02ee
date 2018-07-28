@@ -13,4 +13,4 @@ addDialog("or a dream within a dream...", false, avatarTyler2, false);
 
 
 d_tyler2 = 
-addDialog("hey...come closer.", false, avatarTyler2, false);
+addDialog("hey...come closer2.", false, avatarTyler2, false);

@@ -1,0 +1,13 @@
+diag:
+sprites:
+-create char sprite
+-create char avatar
+
+objects:
+-create char obj, copy from other npc to get CREATE and KEYPRESS events
+-CREATE: need to edit diag title, diag text, avatar name
+-KEYPRESS: need to edit startDialog name
+
+place char in the room
+
+*can use checkpoints to determine which diag to use

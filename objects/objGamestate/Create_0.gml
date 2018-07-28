@@ -19,7 +19,7 @@ global.checkpoint3 = 0;
 
 global.boss1 = 0;
 
-global.d_checkpoint1 = 1;
+global.d_checkpoint1 = 0;
 global.d_checkpoint2 = 0;
 global.d_checkpoint3 = 0;
 
