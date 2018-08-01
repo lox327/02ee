@@ -4,7 +4,7 @@ var switchKey = keyboard_check_pressed(vk_tab);
 
 
 if (switchKey) {
-	if (room != 3) {
+	if (room != 4) {
 		currentRoom1 = room;
 		room_goto(inventory);
 	}
