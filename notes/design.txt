@@ -11,3 +11,5 @@ objects:
 place char in the room
 
 *can use checkpoints to determine which diag to use
+
+different colored key cards (doom, super mario world...) that allow access to different doors
