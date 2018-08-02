@@ -1,6 +1,6 @@
 //show_message(objPlayer.x);
 //show_message(x);
-var prox = 50;
+//var prox = 50;
 if (abs(objPlayer.x - x ) > prox) return;
 if (abs(objPlayer.y - y ) > prox) return;
 

@@ -1,3 +1,6 @@
+prox = 50;
+
+
 //DIALOG
 dialog = [];
 dialogLine = 0;
