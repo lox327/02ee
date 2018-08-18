@@ -6,22 +6,24 @@ room transition
 	-sd
 	
 	
-//todo
+//TODO
 fix controller
 
-char screen, pause game in background
-stop player movement when dialog box
+-char screen, pause game in background
+-stop player movement when dialog box
 	done: slow player movement in diagonal dir
 
-animation for gun bash
-animtaion for shooting
+-animation for gun bash
+-animtaion for shooting
 
-prevent enemy collide with each other
-flash white on hit?
-flash color on special attack
+	done: prevent enemy collide with each other
+-flash white on hit?
+-flash color on special attack
 
-pause: save screen, gray out screen, overlay screen, draw pause
-char/mod screen: save screen, gray out screen, overlay screen, draw char/mod screen
+-pause: save screen, gray out screen, overlay screen, draw pause
+-char/mod screen: save screen, gray out screen, overlay screen, draw char/mod screen
+
+-cutscene system
 
 special abil:
 -check bitbucket, slack
