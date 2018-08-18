@@ -8,7 +8,7 @@ switch (gameState) {
     case GameState.MOVE: 
     { 
         //MOVE
-		move_towards_point(objPlayer.x, objPlayer.y, spd);
+		mp_potential_step(objPlayer.x, objPlayer.y, spd, true);
 		
 		//SPRITE SEL
 		if (self.x > objPlayer.x) sprite_index = enemy2Left;
@@ -21,7 +21,7 @@ switch (gameState) {
 			//timer = 10;
 			//self.x += sign(spd);
 			//gameState = GameState.IDLE;
-			//move_towards_point(objPlayer.x, objPlayer.y, spd);
+			//mp_potential_step(objPlayer.x, objPlayer.y, spd);
 
 		}
 		
@@ -51,7 +51,7 @@ switch (gameState) {
     case GameState.IDLE: 
     { 
         //do another action 
-        move_towards_point(objPlayer.x, objPlayer.y, 0);
+        mp_potential_step(objPlayer.x, objPlayer.y, 0, true);
 		sprite_index = enemy2Idle;
 		
 		if (timer <= 0) //switch action
@@ -64,7 +64,7 @@ switch (gameState) {
 	case GameState.STUN: 
     { 
         //do another action 
-        move_towards_point(objPlayer.x, objPlayer.y, 0);
+        mp_potential_step(objPlayer.x, objPlayer.y, 0, true);
 		sprite_index = enemy2Stun;
 		
 		if (timer <= 0) //switch action
@@ -77,7 +77,7 @@ switch (gameState) {
 	case GameState.CHASE: 
     { 
 		//sprite_index = enemy2Attack;
-		move_towards_point(objPlayer.x, objPlayer.y, spd*2);
+		mp_potential_step(objPlayer.x, objPlayer.y, spd*2, true);
         timer = 100;
         gameState = GameState.MOVE;
         break; 
@@ -86,7 +86,7 @@ switch (gameState) {
 	case GameState.ATTACK1: 
     { 
 		sprite_index = enemy2Attack1;
-		move_towards_point(objPlayer.x, objPlayer.y, spd*4);
+		mp_potential_step(objPlayer.x, objPlayer.y, spd*4, true);
 		if (timer <= 0) //switch action
         { 
             timer = 100;
@@ -98,7 +98,7 @@ switch (gameState) {
 	case GameState.ATTACK2: 
     { 
 		sprite_index = enemy2Attack;
-		move_towards_point(objPlayer.x, objPlayer.y, spd*2);
+		mp_potential_step(objPlayer.x, objPlayer.y, spd*2, true);
 		if (timer <= 0) //switch action
         { 
             timer = 100;
