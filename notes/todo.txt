@@ -13,7 +13,7 @@ fix controller
 -stop player movement when dialog box
 	done: slow player movement in diagonal dir
 
--animation for gun bash
+-animation  and hitbox for gun bash
 -animtaion for shooting
 
 	done: prevent enemy collide with each other
@@ -24,6 +24,8 @@ fix controller
 -char/mod screen: save screen, gray out screen, overlay screen, draw char/mod screen
 
 -cutscene system
+-random npc movement
+-random ambient env artifacts like in HLD
 
 special abil:
 -check bitbucket, slack
