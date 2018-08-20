@@ -2,7 +2,7 @@
     "id": "6d5cee7e-97e4-4d24-9dea-0c3faf97fa9d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprTtyler",
+    "name": "sprTtyler_bak",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -17,3 +17,19 @@ addDialog("or a dream within a dream...", false, avatarTyler, false);
 
 d_tyler2 = 
 addDialog("hey...come closer.", false, avatarTyler, false);
+
+
+//movement
+state = "Inactive";
+sightRange = 350;
+xorigin = self.x;
+yorigin = self.y;
+
+enum GameState2
+{ 
+     MOVE1,
+	 MOVE2,
+	 IDLE,
+};
+gameState = GameState2.IDLE;
+timer = 100; 

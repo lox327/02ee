@@ -2,8 +2,10 @@
 // You can write your code in this editor
 if (pause5){
 	//draw background black
-	draw_set_color(c_black)	;
-	draw_rectangle(0,0,room_width, room_height,0);
+	//draw_set_color(c_black)	;
+	//draw_rectangle(0,0,room_width, room_height,0);
+	//draw_sprite(sprite65, 0, 0, 0);
+	//draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 	
 	//draw text
 	draw_set_halign(fa_center);
