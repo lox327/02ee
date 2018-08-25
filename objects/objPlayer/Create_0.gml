@@ -11,7 +11,7 @@ grid = sprite_width;
 dir = "right";
 state = "idle";
 pause = false;
-flash = 0;
+//flash = 0;
 
 
 //DEFAULTS

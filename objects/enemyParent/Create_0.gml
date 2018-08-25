@@ -1,5 +1,6 @@
 hp = 5;
 spd = 1.0;
+flash = 0;
 
 state = "Inactive";
 sightRange = 350;

@@ -1,6 +1,6 @@
 ///draw character hud
 //x_left, y_top, x_right, y_bot
-if (room != 3){
+if (room != inventory){
 left_align = 100;
 right_align = 200;
 xbar = 25;

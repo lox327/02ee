@@ -1,7 +1,7 @@
 /// @description debug info
 
 //debug
-if (1) {
+if (0) {
 	draw_text(1020, 12, "state: " + string(state));
 	draw_text(1020, 24, "alpha: " + string(alpha));
 	draw_text(1020, 36, "room: " + string(room));
