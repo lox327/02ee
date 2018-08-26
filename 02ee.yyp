@@ -218,7 +218,7 @@
             "Key": "23f116ad-0757-46a0-811f-d31e4bae73c5",
             "Value": {
                 "id": "e9c95589-c445-4725-b41f-34755e583726",
-                "resourcePath": "objects\\objCurrency\\objCurrency.yy",
+                "resourcePath": "objects\\objArtifact\\objArtifact.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -244,6 +244,14 @@
                 "id": "4ec93c60-0415-4283-9761-752826dc8809",
                 "resourcePath": "rooms\\inventory\\inventory.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "294c6871-2660-4f9b-a24e-0142e10ef297",
+            "Value": {
+                "id": "5f53b306-1c81-448e-8855-e24f5a0cef02",
+                "resourcePath": "objects\\objFade\\objFade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -443,6 +451,14 @@
             "Value": {
                 "id": "9186bc91-8124-45a4-82c3-238ced0755b9",
                 "resourcePath": "sprites\\sprTtyler_idle\\sprTtyler_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "50849815-c04c-49fa-9bbd-5615fbbb0ebd",
+            "Value": {
+                "id": "0a15aea7-f5cf-4746-b2d1-9081490c540c",
+                "resourcePath": "sprites\\artifact\\artifact.yy",
                 "resourceType": "GMSprite"
             }
         },
