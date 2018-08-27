@@ -7,7 +7,7 @@
         "a9e12875-20a1-457a-be7b-a9be6516151d"
     ],
     "filterType": "GMRoom",
-    "folderName": "Buildings",
+    "folderName": "Interiors",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

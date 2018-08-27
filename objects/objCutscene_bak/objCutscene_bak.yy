@@ -2,7 +2,7 @@
     "id": "e9cde9b8-efae-476f-99c2-f621cb2a489b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objCutscene",
+    "name": "objCutscene_bak",
     "eventList": [
         {
             "id": "3b65ffa4-a26a-4cb8-8708-86bac2577737",

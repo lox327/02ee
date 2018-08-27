@@ -18,10 +18,15 @@ global.checkpoint2 = 0;
 global.checkpoint3 = 0;
 
 global.boss1 = 0;
+global.boss2 = 0;
 
 global.d_checkpoint1 = 0;
 global.d_checkpoint2 = 0;
 global.d_checkpoint3 = 0;
+
+global.cutscene1 = 0;
+global.cutscene2 = 0;
+global.cutscene3 = 0;
 
 global.room2_x = 0;
 global.room2_y = 0;
