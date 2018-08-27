@@ -19,7 +19,8 @@ if (fetch) {
 
 else {
 	//finish filling in text/skip to next dialog if user pressed a key
-	if (argument[0]) {
+	//if (argument[0]) {
+	if (keyboard_check_pressed(vk_enter)) {
 		if (string_length(dialogText) > string_length(dialogOutput)) {
 			dialogOutputSpeed = 1000;
 		}
