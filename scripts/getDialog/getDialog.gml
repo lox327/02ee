@@ -1,5 +1,6 @@
 /// @description get dialog pieces from obj
 /// @param startLine
+objPlayer.playerMove = false;
 
 if (fetch) {
 	dialogOutput = "";	
@@ -26,7 +27,10 @@ else {
 			if (dialogContinue)	{
 				dialogLine++;
 				fetch = true;
-			} else instance_destroy();
+			} else {
+				instance_destroy();
+				objPlayer.playerMove = true;
+			}
 			
 		}
 		

@@ -25,6 +25,8 @@ currency = 0;
 gun = gun1;
 timer = 0;
 
+playerMove = true;
+
 
 //MAX
 defaultMax = 100;

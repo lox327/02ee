@@ -25,11 +25,11 @@ sightRange = 350;
 xorigin = self.x;
 yorigin = self.y;
 
-enum GameState2
+enum NPCState
 { 
      MOVE1,
 	 MOVE2,
 	 IDLE,
 };
-gameState = GameState2.IDLE;
+gameState = NPCState.IDLE;
 timer = 100; 

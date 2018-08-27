@@ -1,3 +1,8 @@
+if (!playerMove) {
+	//state = "idle";
+	return;
+}
+
 // get input, 0 is first controller
 if (objGamestate.state == "IN_GAME")
 {
