@@ -1,3 +1,4 @@
+//to stop player movement when dialog
 if (!playerMove) {
 	//state = "idle";
 	return;

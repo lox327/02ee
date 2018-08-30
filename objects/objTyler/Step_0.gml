@@ -3,7 +3,7 @@
 if (abs(self.x - objPlayer.x) <= self.sightRange)
 {
 switch (gameState) {
-    case NPCState.MOVE1: 
+    case NPCState.MOVE1: //move left
     { 
         //MOVE
 		if (self.x >= xorigin - 100) self.x -= 1;
@@ -25,7 +25,7 @@ switch (gameState) {
         }
         break; 
     } 
-	case NPCState.MOVE2: 
+	case NPCState.MOVE2: //move right
     { 
         //MOVE
 		if (self.x <= xorigin) self.x += 1;
@@ -63,5 +63,5 @@ switch (gameState) {
     } 
 	
 } 
-timer--;
+if (npcMove) timer--;
 }

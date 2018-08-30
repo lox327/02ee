@@ -208,7 +208,7 @@
             "visible": true
         }
     ],
-    "origin": 4,
+    "origin": 7,
     "originLocked": false,
     "playbackSpeed": 5,
     "playbackSpeedType": 0,
@@ -220,5 +220,5 @@
     "type": 0,
     "width": 25,
     "xorig": 12,
-    "yorig": 21
+    "yorig": 41
 }

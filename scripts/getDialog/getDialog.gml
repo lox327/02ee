@@ -1,6 +1,9 @@
 /// @description get dialog pieces from obj
 /// @param startLine
+//need to generalize objTyler as this can be any NPC
 objPlayer.playerMove = false;
+objTyler.npcMove= false;
+objTyler.gameState = NPCState.IDLE;
 
 if (fetch) {
 	dialogOutput = "";	
@@ -31,6 +34,8 @@ else {
 			} else {
 				instance_destroy();
 				objPlayer.playerMove = true;
+				objTyler.npcMove= true;
+				objTyler.gameState = NPCState.MOVE1; //need to set this back to prev state instead of hard coding
 			}
 			
 		}

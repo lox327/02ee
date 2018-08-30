@@ -1,5 +1,5 @@
 prox = 50;
-
+npcMove = true;
 
 //DIALOG
 dialog = [];
