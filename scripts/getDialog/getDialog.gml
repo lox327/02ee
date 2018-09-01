@@ -2,8 +2,7 @@
 /// @param startLine
 //need to generalize objTyler as this can be any NPC
 objPlayer.playerMove = false;
-objTyler.npcMove= false;
-objTyler.gameState = NPCState.IDLE;
+
 
 if (fetch) {
 	dialogOutput = "";	
@@ -14,9 +13,13 @@ if (fetch) {
 	dialogText = dialogData[0];
 	dialogContinue = dialogData[1];
 	dialogAvatar = dialogData[2];
-	dialogLeftAlign = dialogData[3];
+	dialogLeftAlign = dialogData[3]; //should have var that is just ALIGN and send left/right instead of bool for LEFT.
+	dialogObj = dialogData[4];
 
 	fetch = false; //prevent this from running repeatedly
+	
+	dialogObj.npcMove= false;
+	dialogObj.gameState = NPCState.IDLE;
 	
 }
 
@@ -34,8 +37,8 @@ else {
 			} else {
 				instance_destroy();
 				objPlayer.playerMove = true;
-				objTyler.npcMove= true;
-				objTyler.gameState = NPCState.MOVE1; //need to set this back to prev state instead of hard coding
+				dialogObj.npcMove= true;
+				dialogObj.gameState = NPCState.MOVE1; //need to set this back to prev state instead of hard coding
 			}
 			
 		}
