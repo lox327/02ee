@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "18c78468-4eb3-461c-b698-0de0dbbab52b",
+            "Value": {
+                "id": "616a3eb8-581d-4477-8591-087b1d0ef2e3",
+                "resourcePath": "sprites\\enemy4Attack2\\enemy4Attack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1974e787-8155-4a90-9b10-2f18d5280f2e",
             "Value": {
                 "id": "e483830a-f7c2-42c4-90e2-dc3563e731d3",
@@ -188,6 +196,14 @@
                 "id": "2bf12102-4668-4b71-b3ba-3aba70728bb8",
                 "resourcePath": "rooms\\room1\\room1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2128272a-68b7-4f43-9de5-1f19a22106a8",
+            "Value": {
+                "id": "c8226443-1181-4a82-846b-edb495d52e5f",
+                "resourcePath": "sprites\\enemy4Down\\enemy4Down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "26ff6790-c5b7-43a5-a9d2-141a8988a1b1",
+            "Value": {
+                "id": "a7e256f5-fee5-482b-b299-1ca7f823ec02",
+                "resourcePath": "sprites\\enemy4Up\\enemy4Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27320bbf-7f93-4644-aa7d-098d735ece2c",
             "Value": {
                 "id": "69da2295-2d2a-4913-ba42-3da3134d0033",
@@ -276,6 +300,14 @@
                 "id": "01b907b7-b88b-4ce9-9e9b-78ce83112084",
                 "resourcePath": "sprites\\enemy3Right\\enemy3Right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2acaa79d-e27b-4cdd-9048-f9f7ce46a3c4",
+            "Value": {
+                "id": "a425afff-81b0-49b5-abf5-38c9e791c618",
+                "resourcePath": "objects\\objEnemy4\\objEnemy4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -363,6 +395,14 @@
             "Value": {
                 "id": "481b8191-ac1a-498c-b0ef-4b925932d3cf",
                 "resourcePath": "sprites\\enemyAttack2\\enemyAttack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ed1874c-9772-4c06-a77c-6021e4d92d74",
+            "Value": {
+                "id": "cb1acdbd-af59-491c-a972-d4c604d6a9c0",
+                "resourcePath": "sprites\\enemy4Stun\\enemy4Stun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -823,6 +863,14 @@
             }
         },
         {
+            "Key": "900c8924-2adf-41a0-862f-d7c8bfd82bfd",
+            "Value": {
+                "id": "d9965bb7-c2bc-4245-8bba-5c5d2244edb2",
+                "resourcePath": "views\\900c8924-2adf-41a0-862f-d7c8bfd82bfd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "90dad447-f479-42b9-b6bc-389fab2ac45c",
             "Value": {
                 "id": "c230365b-c44b-4595-b670-1b35206b129b",
@@ -991,6 +1039,14 @@
             }
         },
         {
+            "Key": "aa587602-be58-4159-bf34-a6c2c42a76fa",
+            "Value": {
+                "id": "44a40760-cdae-4bc5-ad0e-40af30c248c5",
+                "resourcePath": "sprites\\enemy4Right\\enemy4Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af88506a-b439-4c8e-a1c9-dba3f5693148",
             "Value": {
                 "id": "aa8da82f-9158-4b6a-b180-fd18cfef3c10",
@@ -1020,6 +1076,22 @@
                 "id": "2d57c107-9fa5-44b9-b2ae-e06b3e1cf181",
                 "resourcePath": "views\\b07eebdb-f90d-4b71-9691-23ca78a4294b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0d70454-5be2-41ea-994b-88b195677734",
+            "Value": {
+                "id": "38ffdc6b-e677-4e90-8400-9d5e9f1d4aff",
+                "resourcePath": "sprites\\enemy4Left\\enemy4Left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3589bfc-c465-463a-b471-b778fb5e0583",
+            "Value": {
+                "id": "d0635d05-39e9-463b-81d8-4b0dd661f468",
+                "resourcePath": "sprites\\enemy4Idle\\enemy4Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1311,6 +1383,14 @@
             }
         },
         {
+            "Key": "e3ce0589-9065-4d02-8021-fa4aa5339638",
+            "Value": {
+                "id": "f4b35675-0548-4f90-a864-71fc55362f7f",
+                "resourcePath": "objects\\enemyBullet\\enemyBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e5cc1bda-ece7-4d4f-be06-cdcaf78c4a7d",
             "Value": {
                 "id": "7b2480cb-0048-4723-bbcc-ad121cddaf6a",
@@ -1340,6 +1420,14 @@
                 "id": "7c0ba36a-0300-4698-abe4-819558ea013d",
                 "resourcePath": "objects\\objCutscene_bak\\objCutscene_bak.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ea4a7ba1-b7f3-4983-a9cc-2e0cdc4c5181",
+            "Value": {
+                "id": "79571289-fbea-4aed-b86c-6ccdf8c78198",
+                "resourcePath": "sprites\\enemy4Attack1\\enemy4Attack1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
