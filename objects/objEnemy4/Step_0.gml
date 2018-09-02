@@ -19,7 +19,9 @@ switch (gameState) {
 		//ATTACK - based on distance, % from rand
 		if (distance_to_object(objPlayer) < 100) {
 			//timer = 100;
-			gameState = EnemyState.ATTACK2;
+			//gameState = EnemyState.ATTACK2;
+			if (random(100) > 50) gameState = GameState.ATTACK2;
+			else gameState = GameState.ATTACK1;
 		}
 		
 		//CHASE - based on distance, % from rand
@@ -45,12 +47,30 @@ switch (gameState) {
         }
         break; 
     } 
-	case EnemyState.ATTACK_IDLE: 
+	case EnemyState.ATTACK1_IDLE: 
     { 
         //do another action 
 		sprite_index = enemy4Idle;
 		if (timer <= 0) {
-			if (self.currBullet < self.bulletMax) //timer for fired bullet is up; if bullet/burst max has been reached, we IDLE. otherwise, shoot again
+			if (self.currBullet < self.bulletMax1) //timer for fired bullet is up; if bullet/burst max has been reached, we IDLE. otherwise, shoot again
+			{ 
+				gameState = EnemyState.ATTACK1;
+			}
+			else {
+				self.currBullet = 0;	//reset bullet counter
+				timer = 100;			//how long to IDLE for before next burst
+				gameState = EnemyState.IDLE;
+			}
+		}
+		
+        break; 
+    } 
+	case EnemyState.ATTACK2_IDLE: 
+    { 
+        //do another action 
+		sprite_index = enemy4Idle;
+		if (timer <= 0) {
+			if (self.currBullet < self.bulletMax2) //timer for fired bullet is up; if bullet/burst max has been reached, we IDLE. otherwise, shoot again
 			{ 
 				gameState = EnemyState.ATTACK2;
 			}
@@ -87,24 +107,23 @@ switch (gameState) {
 	
 	case EnemyState.ATTACK1: 
     { 
+		self.currBullet++;
 		sprite_index = enemy4Attack1;
-		mp_potential_step(objPlayer.x, objPlayer.y, spd*4, true);
-		if (timer <= 0) //switch action
-        { 
-            timer = 100;
-            gameState = EnemyState.IDLE;
-
-        }
-        break; 
+		instance_create_layer(self.x,self.y,"Instances",enemyBullet);
+		
+		timer = 10; //time between bullets
+        gameState = EnemyState.ATTACK1_IDLE; //pause in between bullets to create burst fire effect
+		
+		break;
     }
 	case EnemyState.ATTACK2: 
     { 
 		self.currBullet++;
 		sprite_index = enemy4Attack2;
-		instance_create_layer(self.x,self.y,"Instances",enemyBullet);
+		instance_create_layer(self.x,self.y,"Instances",enemyBullet2);
 		
-		timer = 15; //time between bullets
-        gameState = EnemyState.ATTACK_IDLE; //pause in between bullets to create burst fire effect
+		timer = 25; //time between bullets
+        gameState = EnemyState.ATTACK2_IDLE; //pause in between bullets to create burst fire effect
 		
 		break;
 		
