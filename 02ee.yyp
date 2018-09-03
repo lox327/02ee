@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "4281975e-feca-4823-a203-67807de4ca2e",
+            "Value": {
+                "id": "bbc0e452-081c-4b72-8496-74b90bd2039d",
+                "resourcePath": "sprites\\sprDoor\\sprDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "444dbebe-0855-4992-9b04-4cf5c83d81d9",
             "Value": {
                 "id": "778c3288-8358-4203-90a4-1564d28dadf9",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "6546f88b-e7f4-421a-bc71-006eb4b7a103",
+            "Value": {
+                "id": "5ba9fcb3-5827-4ded-8677-83c6b2650186",
+                "resourcePath": "views\\6546f88b-e7f4-421a-bc71-006eb4b7a103.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "658c1115-15fb-4411-9e80-20da052e990d",
             "Value": {
                 "id": "96178915-a467-48e1-bedd-d27ceed5a8f1",
@@ -812,6 +828,14 @@
                 "id": "9e039930-4976-4496-aafb-a6bba1f5d32d",
                 "resourcePath": "sprites\\enemyRight\\enemyRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "878b2c39-041a-4231-84a4-fa90467887fd",
+            "Value": {
+                "id": "1fb21a02-b17c-467b-a109-494ad23e33ce",
+                "resourcePath": "objects\\objDoor\\objDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {

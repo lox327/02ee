@@ -6,25 +6,33 @@ room transition
 	-sd
 	
 	
-//TODO
+//***TODO
+[bugs]
 fix controller
+fix player coll depth issue with walls, wtf??? 
+fix fades for room transitions, cutscenes...
 
-		done: stop player movement when dialog box
-		done: slow player movement in diagonal dir
 
--animation  and hitbox for gun bash
+[features]
+-animation and hitbox for gun bash
 -animtaion for shooting
-
-		done: prevent enemy collide with each other
-		done: flash white on hit?
 -flash color on special attack for enemies
-
 -pause: save screen, gray out screen, overlay screen, draw pause
 -char/mod screen: save screen, gray out screen, overlay screen, draw char/mod screen
-
-		done: cutscene system
-		done: random npc movement
 -random ambient env artifacts like in HLD
+-system for doors: moveable sprite that animates and changes collision
+
+
+[done]
+done: stop player movement when dialog box
+done: slow player movement in diagonal dir
+done: prevent enemy collide with each other
+done: flash white on hit?
+done: cutscene system
+done: random npc movement
+
+
+
 
 special abil:
 -check bitbucket, slack
