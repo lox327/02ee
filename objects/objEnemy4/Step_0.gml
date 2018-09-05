@@ -17,7 +17,7 @@ switch (gameState) {
 		
 		
 		//ATTACK - based on distance, % from rand
-		if (distance_to_object(objPlayer) < 100) {
+		if (distance_to_object(objPlayer) < 250) {
 			//timer = 100;
 			//gameState = EnemyState.ATTACK2;
 			if (random(100) > 50) gameState = GameState.ATTACK2;

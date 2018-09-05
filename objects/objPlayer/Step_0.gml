@@ -34,10 +34,25 @@ if (state == "idle") {
 	y += yvel;*/
 	
 	if ( !position_meeting(x+xvel, y+yvel, objTank) && !position_meeting(x+xvel, y+yvel, objBlock) && !position_meeting(x+xvel, y+yvel, objPower) ) {
-		x += xvel;
-		y += yvel;
-
+		//x += xvel;
+		//y += yvel;
 	}
+	
+	
+	//x collisions
+	if ( place_meeting(x+(xvel),y,objWall) ) {
+		while( !place_meeting(x+sign(xvel),y,objWall) ) x += sign(xvel);
+		
+	}
+	else x += xvel;
+	
+	//y collisions
+	if ( place_meeting(x,y+(yvel),objWall) ) {
+		while( !place_meeting(x,y+sign(yvel),objWall) ) y += sign(yvel);
+		
+	}
+	else y += yvel;
+	
 	
 	//diagonal movement
 	if ( xvel != 0 && yvel != 0 ) {

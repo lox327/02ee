@@ -1,4 +1,5 @@
 hp = 5;
+hpMax = hp;
 spd = 1.0;
 flash = 0;
 
