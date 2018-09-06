@@ -1,6 +1,7 @@
 //show_message(objPlayer.x);
 //show_message(x);
 //var prox = 50;
+//don't allow enter code if we're not within prox range
 if (abs(objPlayer.x - x ) > prox) return;
 if (abs(objPlayer.y - y ) > prox) return;
 

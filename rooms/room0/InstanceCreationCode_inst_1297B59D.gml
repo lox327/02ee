@@ -1,0 +1,1 @@
+if (global.checkpoint1) instance_destroy();
