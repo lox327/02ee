@@ -9,26 +9,40 @@ for (var i = 0; i < maxpads; i++) {
         {
         // do stuff with pad "i"
 		device = i;
+		break;
         }
 }
 
-if (gamepad_is_connected(0)) {
+if (gamepad_is_connected(device)) {
+	//b_num = gamepad_button_count(device);
 	gamepad_set_axis_deadzone(device, 0.3);
 	xx = gamepad_axis_value(device, gp_axislh);
 	yy = gamepad_axis_value(device, gp_axislv);
 	
-	//b_num = gamepad_button_count(device);
+	//config1
 	actAttack =	gamepad_button_check(device, gp_face1);
-	actShoot = gamepad_button_check_pressed(device, gp_face2);
+	actShoot = gamepad_button_check_pressed(device, gp_shoulderr);
+	wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
+	btnAction = gamepad_button_check_pressed(device, gp_face3);
+	
+	//config2
+	//actAttack = gamepad_button_check_pressed(device, gp_face2);
+	//actShoot = gamepad_button_check_pressed(device, gp_face1);
+	//wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
+	//btnAction = gamepad_button_check_pressed(device, gp_face3);
+	
+	gameEnd = keyboard_check_pressed(gp_select);
 	
 }
 
 else {
+	//ARROW KEYS
 	/*moveUp = keyboard_check(vk_up);
 	moveDown = keyboard_check(vk_down);
 	moveLeft = keyboard_check(vk_left);
 	moveRight = keyboard_check(vk_right);*/
 	
+	//WASD KEYS
 	moveUp = keyboard_check(ord("W"));
 	moveDown = keyboard_check(ord("S"));
 	moveLeft = keyboard_check(ord("A"));
@@ -36,16 +50,21 @@ else {
 	
 	xx = moveRight - moveLeft;
 	yy = moveDown - moveUp;
+	
+	actAttack = keyboard_check_pressed(vk_control);
+	actShoot = keyboard_check_pressed(vk_space);
+	
+	gameEnd = keyboard_check_pressed(vk_escape);
 
 }
 
-actAttack = keyboard_check_pressed(vk_control);
-actShoot = keyboard_check_pressed(vk_space);
+gameEnd = keyboard_check_pressed(vk_escape);
+
 	
 //actInv = keyboard_check_pressed(vk_tab);
 //actPause = keyboard_check_pressed(vk_tab);
 	
-gameEnd = keyboard_check_pressed(vk_escape);
+
 
 num = 0;
 if keyboard_check_pressed(ord("P"))
