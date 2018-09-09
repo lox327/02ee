@@ -1,4 +1,4 @@
-diag:
+dialog:
 sprites:
 -create char sprite
 -create char avatar

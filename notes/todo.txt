@@ -9,7 +9,6 @@ room transition
 //***TODO
 [bugs]
 fix controller
-fix player coll depth issue with walls, wtf??? 
 fix fades for room transitions, cutscenes...
 
 
@@ -30,7 +29,7 @@ done: prevent enemy collide with each other
 done: flash white on hit?
 done: cutscene system
 done: random npc movement
-
+done: fix player coll depth issue with walls, wtf??? (wow, collision mask was not set correctly for LEFT sprite)
 
 
 

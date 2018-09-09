@@ -65,3 +65,5 @@ switch (gameState) {
 } 
 if (npcMove) timer--;
 }
+
+setDepth();
