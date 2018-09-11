@@ -122,18 +122,42 @@ if (defaultEnergy < defaultMax) {
 	else timer--;
 }
 
-//switch, gun/bullet sel
-if (keyboard_check(ord("1"))) {
-	gunSel = 1;
-	gun = gun1;
+
+//gpConnected
+if (gpConnected) {
+	//switch, gun/bullet sel, controller
+	if (wepSwitch) {
+		if (gunSel == 1) {
+			gunSel = 2;
+			gun = gun2;
+		}
+		else if (gunSel == 2) {
+			gunSel = 3;
+			gun = gun3;
+		}
+		else if (gunSel == 3) {
+			gunSel = 1;
+			gun = gun1;
+		}
+	
+	}
 }
-else if (keyboard_check(ord("2"))) {
-	gunSel = 2;
-	gun = gun2;
-}
-else if (keyboard_check(ord("3"))) {
-	gunSel = 3;
-	gun = gun3;
+//no gp, default to keyboard
+else {
+	//switch, gun/bullet sel
+	if (keyboard_check(ord("1"))) {
+		gunSel = 1;
+		gun = gun1;
+	}
+	else if (keyboard_check(ord("2"))) {
+		gunSel = 2;
+		gun = gun2;
+	}
+	else if (keyboard_check(ord("3"))) {
+		gunSel = 3;
+		gun = gun3;
+	}	
+	
 }
 
 

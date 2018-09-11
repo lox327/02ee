@@ -1,5 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
+//test99();
+
+if (global.btnAction) {
+	if (abs(objPlayer.x - x ) > prox) return;
+	if (abs(objPlayer.y - y ) > prox) return;
+
+	startDialog(self, d_tyler1);	
+	
+}
+
 if (abs(self.x - objPlayer.x) <= self.sightRange)
 {
 switch (gameState) {

@@ -26,7 +26,9 @@ if (fetch) {
 else {
 	//finish filling in text/skip to next dialog if user pressed a key
 	//if (argument[0]) {
-	if (keyboard_check_pressed(vk_enter)) {
+	//if (keyboard_check_pressed(vk_enter)) {
+	//temp fix because global.btnAction not working here for some reason...!
+	if (gamepad_button_check_pressed(4, gp_face3)) {
 		if (string_length(dialogText) > string_length(dialogOutput)) {
 			dialogOutputSpeed = 1000;
 		}

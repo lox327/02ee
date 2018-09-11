@@ -1,10 +1,12 @@
 ///draw character hud
 //x_left, y_top, x_right, y_bot
 //depth = -8888;
+display_set_gui_size( camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]) );
+
 if (room != inventory){
-left_align = 100;
-right_align = 200;
-xbar = 25;
+left_align = 100/2;
+right_align = 200/2;
+xbar = 25/2;
 
 var pc;
 pc = (health / healthMax) * 100;

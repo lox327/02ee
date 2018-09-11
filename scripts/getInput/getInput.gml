@@ -2,6 +2,10 @@
 //custom class/function
 //device = argument0;
 device = "";
+gpConnected = false;
+
+//need to init all vars?
+global.btnAction = 0;
 
 var maxpads = gamepad_get_device_count();
 for (var i = 0; i < maxpads; i++) {
@@ -9,27 +13,31 @@ for (var i = 0; i < maxpads; i++) {
         {
         // do stuff with pad "i"
 		device = i;
+		gpConnected = true;
 		break;
         }
 }
 
-if (gamepad_is_connected(device)) {
+if (gpConnected) {
 	//b_num = gamepad_button_count(device);
 	gamepad_set_axis_deadzone(device, 0.3);
 	xx = gamepad_axis_value(device, gp_axislh);
 	yy = gamepad_axis_value(device, gp_axislv);
 	
 	//config1
-	actAttack =	gamepad_button_check(device, gp_face1);
-	actShoot = gamepad_button_check_pressed(device, gp_shoulderr);
-	wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
-	btnAction = gamepad_button_check_pressed(device, gp_face3);
-	
-	//config2
-	//actAttack = gamepad_button_check_pressed(device, gp_face2);
-	//actShoot = gamepad_button_check_pressed(device, gp_face1);
-	//wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
-	//btnAction = gamepad_button_check_pressed(device, gp_face3);
+	if (0) {
+		actAttack =	gamepad_button_check(device, gp_face1);
+		actShoot = gamepad_button_check_pressed(device, gp_shoulderr);
+		wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
+		global.btnAction = gamepad_button_check_pressed(device, gp_face3);
+	}
+	else {
+		//config2
+		actAttack = gamepad_button_check_pressed(device, gp_face2);
+		actShoot = gamepad_button_check_pressed(device, gp_face1);
+		wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
+		global.btnAction = gamepad_button_check_pressed(device, gp_face3);
+	}
 	
 	gameEnd = keyboard_check_pressed(gp_select);
 	
@@ -53,6 +61,8 @@ else {
 	
 	actAttack = keyboard_check_pressed(vk_control);
 	actShoot = keyboard_check_pressed(vk_space);
+	
+	global.btnAction = keyboard_check_pressed(vk_enter);
 	
 	gameEnd = keyboard_check_pressed(vk_escape);
 
