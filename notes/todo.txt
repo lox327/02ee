@@ -1,26 +1,28 @@
 //***TODO
-[bugs]
+[bugs MAJOR]
 -fix fades for room transitions, cutscenes...
+
+[bugs MINOR]
 -select button not working?
--bullets do not collide with solid obj besides enemies
-
-
-[enhancements]
 -fix controller: getInput should set button/key vars for use throughout game, regardless of keyboard or controller
 	-seems to be working ok, need to fix getDialog script
 	-need to update other NPCs that are still coded for keyboard input
+---------------------------------------------------------------------------------------------------------------------
+
+[enhancements]
+
 -address Parent structure
 
 
-[features]
+[features+]
 -animation and hitbox for gun bash
 -animtaion for shooting
 -flash color on special attack for enemies
 -pause: save screen, gray out screen, overlay screen, draw pause
 -char/mod screen: save screen, gray out screen, overlay screen, draw char/mod screen
 -random ambient env artifacts like in HLD
--system for doors: moveable sprite that animates and changes collision
 
+---------------------------------------------------------------------------------------------------------------------
 
 [done]
 done: stop player movement when dialog box
@@ -31,6 +33,8 @@ done: cutscene system
 done: random npc movement
 done: fix player coll depth issue with walls, wtf??? (wow, collision mask was not set correctly for LEFT sprite)
 done: fix gui sizing when dialog (dialog sets gui to 2x larger than player hud gui; fix in player hud?)
+done: system for doors: moveable sprite that animates and changes collision
+done: bullets do not collide with solid obj besides enemies
 
 
 
