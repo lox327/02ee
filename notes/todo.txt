@@ -3,16 +3,15 @@
 -fix fades for room transitions, cutscenes...
 
 [bugs MINOR]
--select button not working?
 -fix controller: getInput should set button/key vars for use throughout game, regardless of keyboard or controller
 	-seems to be working ok, need to fix getDialog script
 	-need to update other NPCs that are still coded for keyboard input
 ---------------------------------------------------------------------------------------------------------------------
 
 [enhancements]
-
+-better AI
 -address Parent structure
-
+-enemy attack moves
 
 [features+]
 -animation and hitbox for gun bash
@@ -35,6 +34,7 @@ done: fix player coll depth issue with walls, wtf??? (wow, collision mask was no
 done: fix gui sizing when dialog (dialog sets gui to 2x larger than player hud gui; fix in player hud?)
 done: system for doors: moveable sprite that animates and changes collision
 done: bullets do not collide with solid obj besides enemies
+done: select button not working? (was using keyboard check instead of gamepad check, duh)
 
 
 

@@ -31,15 +31,16 @@ if (gpConnected) {
 		wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
 		global.btnAction = gamepad_button_check_pressed(device, gp_face3);
 	}
+	//config2
 	else {
-		//config2
 		actAttack = gamepad_button_check_pressed(device, gp_face2);
 		actShoot = gamepad_button_check_pressed(device, gp_face1);
 		wepSwitch = gamepad_button_check_pressed(device, gp_shoulderl);
 		global.btnAction = gamepad_button_check_pressed(device, gp_face3);
 	}
 	
-	gameEnd = keyboard_check_pressed(gp_select);
+	gameEnd = gamepad_button_check_pressed(device, gp_select);
+	gamePause = gamepad_button_check_pressed(device, gp_start);
 	
 }
 
@@ -61,16 +62,12 @@ else {
 	
 	actAttack = keyboard_check_pressed(vk_control);
 	actShoot = keyboard_check_pressed(vk_space);
-	
 	global.btnAction = keyboard_check_pressed(vk_enter);
 	
 	gameEnd = keyboard_check_pressed(vk_escape);
 
 }
 
-gameEnd = keyboard_check_pressed(vk_escape);
-
-	
 //actInv = keyboard_check_pressed(vk_tab);
 //actPause = keyboard_check_pressed(vk_tab);
 	
