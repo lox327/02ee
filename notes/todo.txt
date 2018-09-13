@@ -12,6 +12,8 @@
 -better AI
 -address Parent structure
 -enemy attack moves
+-enemy drop system (how to cleanly have a system with random elements)
+	-ENUM with all items then use switch statement? will give it some thought...
 
 [features+]
 -animation and hitbox for gun bash
