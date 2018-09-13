@@ -24,6 +24,7 @@ health = 90;
 currency = 0;
 gun = gun1;
 timer = 0;
+invArtifact = 0;
 
 playerMove = true;
 

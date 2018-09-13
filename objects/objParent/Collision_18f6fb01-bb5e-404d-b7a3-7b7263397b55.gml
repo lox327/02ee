@@ -25,6 +25,7 @@ switch(type) {
 	
 	case "artifact":
 		//if (objPlayer.currency < objPlayer.currencyMax) objPlayer.currency += 25;	//need to add formula for adding in between values for < 25
+		invArtifact += 5;
 		break;
 		
 	default:
