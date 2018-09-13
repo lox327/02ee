@@ -22,6 +22,8 @@
 -pause: save screen, gray out screen, overlay screen, draw pause
 -char/mod screen: save screen, gray out screen, overlay screen, draw char/mod screen
 -random ambient env artifacts like in HLD
+-enemy intro animation
+-enemy death animation
 
 ---------------------------------------------------------------------------------------------------------------------
 

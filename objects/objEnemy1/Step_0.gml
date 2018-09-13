@@ -3,8 +3,9 @@ if (hp <= 0)  instance_destroy();
 //event_user(0);//Choose a State
 if (abs(self.x - objPlayer.x) <= self.sightRange)
 {
+	
 switch (gameState) {
-    case GameState.MOVE: 
+    case GameState2.MOVE: 
     { 
         //MOVE
 		mp_potential_step(objPlayer.x, objPlayer.y, spd, true);
@@ -19,7 +20,7 @@ switch (gameState) {
 		if (distance_to_object(enemyParent) > 20) {
 			//timer = 10;
 			//self.x += sign(spd);
-			//gameState = GameState.IDLE;
+			//gameState = GameState2.IDLE;
 			//mp_potential_step(objPlayer.x, objPlayer.y, spd);
 
 		}
@@ -27,27 +28,27 @@ switch (gameState) {
 		//ATTACK - based on distance, % from rand
 		if (distance_to_object(objPlayer) < 50) {
 			//timer = 100;
-			if (random(100) > 25) gameState = GameState.ATTACK2;
-			else gameState = GameState.ATTACK1;
+			if (random(100) > 25) gameState = GameState2.ATTACK2;
+			else gameState = GameState2.ATTACK1;
 		}
 		
 		//CHASE
 		else if (distance_to_object(objPlayer) < 100) {
 			//timer = 10;
-			gameState = GameState.CHASE;
+			gameState = GameState2.CHASE;
 		}
 		
 		
         if (timer <= 0)
-		//if (distance_to_object(objPayer) > 128)	gameState = GameState.IDLE;
+		//if (distance_to_object(objPayer) > 128)	gameState = GameState2.IDLE;
         { 
             if (random(100) > 50) timer = 20;
 			else timer = 40;
-            gameState = GameState.IDLE;
+            gameState = GameState2.IDLE;
         }
         break; 
     } 
-    case GameState.IDLE: 
+    case GameState2.IDLE: 
     { 
         //do another action 
         mp_potential_step(objPlayer.x, objPlayer.y, 0, true);
@@ -56,11 +57,34 @@ switch (gameState) {
 		if (timer <= 0) //switch action
         { 
             timer = 100;
-            gameState = GameState.MOVE;
+            gameState = GameState2.MOVE;
         }
         break; 
     } 
-	case GameState.STUN: 
+	case GameState2.INTRO: 
+    { 
+		if (image_speed > 0) { //not needed? image speed inherited from sprite?
+			if (image_index > image_number - 1) {
+				timer = 100;
+				gameState = GameState2.IDLE;
+			}
+		}
+		
+        break; 
+    } 
+	case GameState2.DEATH: 
+    { 
+		sprite_index = enemyDeath;
+		if (image_speed > 0) { //not needed? image speed inherited from sprite?
+			if (image_index > image_number - 1) {
+				//timer = 100;
+				//gameState = GameState2.IDLE;
+			}
+		}
+		
+        break; 
+    } 
+	case GameState2.STUN: 
     { 
         //do another action 
         mp_potential_step(objPlayer.x, objPlayer.y, 0, true);
@@ -69,39 +93,39 @@ switch (gameState) {
 		if (timer <= 0) //switch action
         { 
             timer = 100;
-            gameState = GameState.MOVE;
+            gameState = GameState2.MOVE;
         }
         break; 
     } 
-	case GameState.CHASE: 
+	case GameState2.CHASE: 
     { 
 		//sprite_index = enemyAttack;
 		mp_potential_step(objPlayer.x, objPlayer.y, spd*2, true);
         timer = 100;
-        gameState = GameState.MOVE;
+        gameState = GameState2.MOVE;
         break; 
     } 
 	
-	case GameState.ATTACK1: 
+	case GameState2.ATTACK1: 
     { 
 		sprite_index = enemyAttack1;
 		mp_potential_step(objPlayer.x, objPlayer.y, spd*4, true);
 		if (timer <= 0) //switch action
         { 
             timer = 100;
-            gameState = GameState.IDLE;
+            gameState = GameState2.IDLE;
 
         }
         break; 
     }
-	case GameState.ATTACK2: 
+	case GameState2.ATTACK2: 
     { 
 		sprite_index = enemyAttack2;
 		mp_potential_step(objPlayer.x, objPlayer.y, spd*2, true);
 		if (timer <= 0) //switch action
         { 
             timer = 100;
-            gameState = GameState.IDLE;
+            gameState = GameState2.IDLE;
 
         }
         break; 

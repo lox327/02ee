@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "5ee824e9-2ded-4007-a2f9-fd2eb25ce1eb",
+            "Value": {
+                "id": "ab14f25c-2463-4d22-8a63-3a0cd9fe516e",
+                "resourcePath": "sprites\\enemyIntro\\enemyIntro.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f93988d-739a-4638-a331-04fb883e8c38",
             "Value": {
                 "id": "a92c0fd6-1709-4d62-8c6e-e7814b04478c",
@@ -1308,6 +1316,14 @@
                 "id": "8c8dc0e7-fafe-4805-9905-a414b130542c",
                 "resourcePath": "scripts\\test99\\test99.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d6b296e6-823f-4b18-b3c7-fb4706c0c2e4",
+            "Value": {
+                "id": "56a45bfb-e406-4b46-8cbd-e07dfce85b5f",
+                "resourcePath": "sprites\\enemyDeath\\enemyDeath.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
