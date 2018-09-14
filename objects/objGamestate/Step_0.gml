@@ -1,7 +1,7 @@
 /// @description fade in/out code
 switch(state) {
 	case "IN_GAME": {
-		draw_set_alpha(1);
+		//draw_set_alpha(1);
 		break;
 	}
 	
@@ -11,7 +11,7 @@ switch(state) {
 			alpha = 0;
 			state = "TRANSITION_EXIT";
 		}
-		draw_set_alpha(alpha);
+		//draw_set_alpha(alpha);
 		break;
 	}
 	
@@ -21,7 +21,7 @@ switch(state) {
 			alpha = 1;
 			state = "IN_GAME";
 		}
-		draw_set_alpha(alpha);
+		//draw_set_alpha(alpha);
 		break;
 	}
 	
