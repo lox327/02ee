@@ -6,6 +6,7 @@
 -fix controller: getInput should set button/key vars for use throughout game, regardless of keyboard or controller
 	-seems to be working ok, need to fix getDialog script
 	-need to update other NPCs that are still coded for keyboard input
+-shooting enemy bullets go through blocks
 ---------------------------------------------------------------------------------------------------------------------
 
 [enhancements]

@@ -20,6 +20,6 @@ var pc3;
 pc3 = (defaultEnergy / defaultMax) * 100;
 draw_healthbar(left_align, xbar*3, right_align, xbar*3+2, pc3, c_black, c_gray, c_gray, 0, true, true);
 
-draw_sprite(gun, gun, 25, 21);
+draw_sprite(gun, gun, 15, 10);
 
 }
