@@ -8,7 +8,7 @@ switch(objGamestate.state) {
 		a = clamp(a + (fade * fadeSpeed), 0, 1);
 
 		if (a==1) {
-			room_goto_next();
+			//room_goto_next();
 			fade = -1;
 		}
 
@@ -36,7 +36,7 @@ switch(objGamestate.state) {
 		a = clamp(a + (fade * fadeSpeed), 0, 1);
 
 		if (a==1) {
-			room_goto_next();
+			//room_goto_next();
 			fade = -1;
 		}
 
