@@ -1,3 +1,4 @@
+getInput();
 //to stop player movement when dialog
 if (!playerMove) {
 	//state = "idle";
@@ -7,8 +8,7 @@ if (!playerMove) {
 // get input, 0 is first controller
 if (objGamestate.state == "IN_GAME")
 {
-getInput();
-
+//getInput();
 
 xvel = xx * playerSpeed;
 yvel = yy * playerSpeed;
