@@ -54,7 +54,7 @@ if (state == "idle") {
 	
 	//diagonal movement
 	if ( xvel != 0 && yvel != 0 ) {
-		playerSpeed = diagSpeed +.2;
+		playerSpeed = diagSpeed;
 	} else playerSpeed = walkSpeed;
 	
 
