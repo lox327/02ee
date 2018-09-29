@@ -4,3 +4,5 @@ flash = 1;
 hp -= other.bulletDmg;
 
 instance_destroy(other);
+
+if (hp <= 0) self.x -= 50; //aimation to move player?
