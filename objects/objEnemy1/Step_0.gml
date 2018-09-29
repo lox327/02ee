@@ -1,4 +1,9 @@
-if (hp <= 0)  instance_destroy();
+if ( hp <= 0 && gameState != GameState2.DEATH )  {
+	//instance_destroy();
+	sprite_index = enemyDeath;
+	//timer = 100;
+	gameState = GameState2.DEATH;
+}
 //image_index = direction;
 //event_user(0);//Choose a State
 if (abs(self.x - objPlayer.x) <= self.sightRange)
@@ -74,12 +79,9 @@ switch (gameState) {
     } 
 	case GameState2.DEATH: 
     { 
-		sprite_index = enemyDeath;
-		if (image_speed > 0) { //not needed? image speed inherited from sprite?
-			if (image_index > image_number - 1) {
-				//timer = 100;
-				//gameState = GameState2.IDLE;
-			}
+		//if (timer <= 0) instance_destroy();	//timer based to destory
+		if (image_index > image_number - 1) {	//sprite based to destroy
+			instance_destroy();
 		}
 		
         break; 

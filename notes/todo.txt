@@ -7,6 +7,7 @@
 	-seems to be working ok, need to fix getDialog script
 	-need to update other NPCs that are still coded for keyboard input
 -bullet instance on player is wrong y pos
+-display_set_gui_size is scaling GUI elements incorrectly throughout
 	
 [up next]
 -pause menu
