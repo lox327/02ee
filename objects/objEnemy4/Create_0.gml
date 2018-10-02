@@ -8,7 +8,7 @@ bulletMax2 = 5;
 currBullet = 0;
 
 state = "Inactive";
-sightRange = 350;
+sightRange = 500;
 aggressiveness = 0;
 attackRange = sprite_width/2 + objPlayer.sprite_width/2;
 

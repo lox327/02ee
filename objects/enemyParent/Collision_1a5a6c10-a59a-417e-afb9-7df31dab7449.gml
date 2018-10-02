@@ -5,4 +5,4 @@ hp -= other.bulletDmg;
 
 instance_destroy(other);
 
-if (hp <= 0) self.x -= 50; //aimation to move player?
+//if (hp <= 0) self.x -= 50; //aimation to move player?

@@ -36,6 +36,17 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 
+[TODO for jp]
+-install GMS on other machine to check version control
+-brush up on sprites/animations, tiles, tilesets, brushes, tile layers in rooms
+	-how do the resources work if JP has something i dont - does GMS download that for me?
+
+
+
+
+
+
+
 [done]
 done: stop player movement when dialog box
 done: slow player movement in diagonal dir
