@@ -69,3 +69,4 @@ special abil:
 -shield + heal
 -wep overcharge
 
+t1
