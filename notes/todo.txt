@@ -70,3 +70,4 @@ special abil:
 -wep overcharge
 
 t1
+t2
